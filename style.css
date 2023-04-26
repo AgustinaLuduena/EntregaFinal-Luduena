@@ -257,7 +257,8 @@ footer {
 }
 
 .cuatro {
-    margin: 10px 90px;
+    margin: 10px 20px;
+    padding-right: 30px;
     /*FlexBox*/
     display: flex;
     flex-direction: column;
@@ -620,7 +621,11 @@ h3 {
         text-align: center;
         margin: 0px;
         padding: 15px;
-        background-color: rgb(243, 223, 109);
+        background-color: rgb(236, 207, 233);
+    }
+
+    .last-paragraph-servicios {
+        font-size: 24px;
     }
 
     /* Fin Page Servicios */
