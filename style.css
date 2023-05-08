@@ -142,8 +142,8 @@ footer {
 /*Inicio Page Nosotros*/
 
 .paragraph-nosotros {
-    font-size: 34px;
-    margin: 20px 50px;
+    font-size: 28px;
+    margin: 20px 60px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -151,29 +151,45 @@ footer {
     font-style: italic;
 }
 
-.conteiner {
+
+.first-conteiner {
     /*Grid*/
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 650px);
+    grid-template-columns: 1fr 2fr;
+}
+
+.logo-image-conteiner-nosotros {
+    /*Grid*/
+    grid-column: 1;
+    width: 100%;
+    height: auto;
+    align-self: center;
+    /*Flexbox*/
+    display: flex;
+    justify-content: center;
 }
 
 .text-conteiner {
-    margin: 50px 0px 0px 20px;
-    padding: 50px 0px 0px 40px;
     /*Grid*/
-    grid-column: 1;
-    grid-row: 1/3;
+    grid-column: 2;
     /*Flexbox*/
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.second-conteiner {
+    /*Grid*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .first-image-conteiner-nosotros {
     /*Grid*/
-    grid-column: 2;
-    grid-row: 1;
+    grid-column: 1;
     /*FlexBox*/
     display: flex;
     align-items: center;
@@ -182,7 +198,6 @@ footer {
 .second-image-conteiner-nosotros {
     /*Grid*/
     grid-column: 2;
-    grid-row: 2;
     /*FlexBox*/
     display: flex;
     align-items: center;
@@ -190,8 +205,7 @@ footer {
 
 .third-image-conteiner-nosotros {
     /*Grid*/
-    grid-column: 2;
-    grid-row: 3;
+    grid-column: 3;
     /*FlexBox*/
     display: flex;
     align-items: center;
@@ -200,10 +214,17 @@ footer {
 .image {
     display: flex;
     justify-content: center;
+    align-self: center;
 }
 
 .nosotros-image {
-    width: 55%;
+    width: 80%;
+}
+
+.logo-image-conteiner-nosotros:hover {
+    transform: rotate(360deg);
+    transition: all 5s;
+    
 }
 
 .second-button {
@@ -532,31 +553,30 @@ h3 {
         font-family: 'Poppins', sans-serif;
     }
 
-    .conteiner {
-        /*Flexbox*/
+    .logo-image-conteiner-nosotros, .text-conteiner, .image {
+        grid-column: 1 / span 2;
+        /*FlexBox*/
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
-    .text-conteiner {
-        margin: 30px 10px 20px 10px;
-        padding: 30px 10px 0px 10px;
-
-        /*Flexbox*/
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+    .nosotros-image-logo {
+        width: 30%;
+        margin: 25px;
     }
 
     .first-image-conteiner-nosotros, .second-image-conteiner-nosotros, .third-image-conteiner-nosotros {
+        grid-column: 2;
         /*FlexBox*/
         display: flex;
+        justify-content: center;
         align-items: center;
     }
 
     .nosotros-image {
-        width: 90%;
+        width: 350px;
+        height: 350px;
         margin: 10px;
     }
 
@@ -734,7 +754,7 @@ h3 {
     }
     
     #subtitle {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .logo {
@@ -834,30 +854,30 @@ h3 {
         margin: 15px;
     }
 
-    .conteiner {
-        /*Flexbox*/
+    .logo-image-conteiner-nosotros, .text-conteiner, .image {
+        grid-column: 1 / span 2;
+        /*FlexBox*/
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
-    .text-conteiner {
-        margin: 30px 10px 20px 10px;
-        padding: 30px 10px 0px 10px;
-        /*Flexbox*/
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+    .nosotros-image-logo {
+        width: 30%;
+        margin: 25px;
     }
 
     .first-image-conteiner-nosotros, .second-image-conteiner-nosotros, .third-image-conteiner-nosotros {
+        grid-column: 2;
         /*FlexBox*/
         display: flex;
+        justify-content: center;
         align-items: center;
     }
 
     .nosotros-image {
-        width: 90%;
+        width: 450px;
+        height: 450px;
         margin: 10px;
     }
 
@@ -1152,36 +1172,28 @@ h3 {
     /*Inicio Page Nosotros*/
 
     .paragraph-nosotros {
-        font-size: 30px;
+        font-size: 24px;
         margin: 20px 40px;
         font-family: 'Poppins', sans-serif;
     }
 
-    .conteiner {
-        /*Flexbox*/
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-
-    .text-conteiner {
-        margin: 30px 10px 20px 10px;
-        padding: 30px 10px 0px 10px;
-        /*Flexbox*/
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .first-image-conteiner-nosotros, .second-image-conteiner-nosotros, .third-image-conteiner-nosotros {
+    .logo-image-conteiner-nosotros, .text-conteiner, .image {
+        grid-column: 1 / span 2;
         /*FlexBox*/
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     .nosotros-image {
         width: 90%;
         margin: 10px;
+    }
+
+    .nosotros-image-logo {
+        width: 30%;
+        margin: 25px;
+
     }
 
     .second-button {
@@ -1376,7 +1388,7 @@ h3 {
 }
 
 #subtitle {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 /* Fin Logo, Titles and buttons*/
 
@@ -1406,25 +1418,22 @@ h3 {
 /*Inicio Page Nosotros*/
 
 .paragraph-nosotros {
-    font-size: 34px;
+    font-size: 30px;
     margin: 20px 40px;
     font-family: 'Poppins', sans-serif;
 }
 
-.conteiner {
-    /*Flexbox*/
+.logo-image-conteiner-nosotros, .text-conteiner, .image {
+    grid-column: 1 / span 2;
+    /*FlexBox*/
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.text-conteiner {
-    margin: 30px 10px 20px 10px;
-    padding: 30px 10px 0px 10px;
-    /*Flexbox*/
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.nosotros-image-logo {
+    width: 30%;
+    margin: 25px;
 }
 
 .first-image-conteiner-nosotros, .second-image-conteiner-nosotros, .third-image-conteiner-nosotros {
@@ -1482,10 +1491,6 @@ h3 {
 
 /*Inicio Page Nosotros*/
 
-.text-conteiner {
-    margin: 20px 0px;
-}
-
 .paragraph-nosotros {
     font-size: 30px;
     margin: 20px 25px;
@@ -1494,6 +1499,34 @@ h3 {
 
 .paragraph-introduction {
     font-size: 35px;
+}
+
+
+.first-conteiner, .second-conteiner {
+    flex-wrap: wrap;
+
+}
+
+.logo-image-conteiner-nosotros {
+    /*Flexbox*/
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.text-conteiner {
+    /*Flexbox*/
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-image-conteiner-nosotros, .second-image-conteiner-nosotros, .third-image-conteiner-nosotros {
+    /*FlexBox*/
+    display: flex;
+    align-items: center;
 }
 
 /* Fin Page Nosotros*/
@@ -1540,6 +1573,10 @@ h3 {
 
 .paragraph-introduction {
     font-size: 40px;
+}
+
+.nosotros-image-logo {
+    width: 60%;
 }
 
 /* Fin Page Nosotros*/
