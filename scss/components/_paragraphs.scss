@@ -1,0 +1,23 @@
+@import "../base/colores";
+
+
+.section-paragraph {
+    color: $textos-oscuros;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 45px;
+
+    .paragraph-introduction {
+        font-size: 35px;
+        margin: 65px;
+        font-family: 'Ysabeau', sans-serif;
+        font-style: italic;
+    }
+    
+    .paragraph-text {
+        font-size: 30px;
+        margin: 90px 390px 40px 390px;
+        font-family: 'Ysabeau', sans-serif;
+    }
+    
+}

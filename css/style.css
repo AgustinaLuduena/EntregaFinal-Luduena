@@ -1,0 +1,110 @@
+/*Header CSS*/
+header .navbar {
+  background-color: rgb(170, 183, 156);
+}
+header .navbar .navbar-brand {
+  margin: 0px 12px;
+}
+header .navbar .logo {
+  width: 70px;
+  height: 70px;
+}
+header .navbar #navbarNav .nav-link.active.ok {
+  color: beige;
+  font-size: 20px;
+  text-decoration: underline;
+  font-style: italic;
+}
+header .navbar #navbarNav .nav-link {
+  color: beige;
+  font-size: 18px;
+}
+
+/*Section Title*/
+.title {
+  color: rgb(22, 22, 22);
+  background-color: rgb(255, 250, 243);
+  font-family: "Josefin Slab", serif;
+  text-align: center;
+  padding: 60px;
+}
+.title #title {
+  letter-spacing: 7px;
+  font-style: italic;
+  font-size: 3rem;
+}
+.title #subtitle {
+  font-size: 4rem;
+}
+
+.section-paragraph {
+  color: rgb(22, 22, 22);
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding: 45px;
+}
+.section-paragraph .paragraph-introduction {
+  font-size: 35px;
+  margin: 65px;
+  font-family: "Ysabeau", sans-serif;
+  font-style: italic;
+}
+.section-paragraph .paragraph-text {
+  font-size: 30px;
+  margin: 90px 390px 40px 390px;
+  font-family: "Ysabeau", sans-serif;
+}
+
+.first-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.first-button #button {
+  background-color: rgb(147, 173, 147);
+  border: rgb(75, 107, 75);
+  font-size: 25px;
+  padding: 15px;
+}
+.first-button .link-conocenos {
+  text-decoration: none;
+  color: beige;
+  font-style: italic;
+}
+
+.footer-conteiner {
+  background-color: rgb(220, 220, 220);
+  padding: 30px;
+  /*Grid*/
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 1;
+}
+.footer-conteiner .footer-item-media {
+  /*Grid*/
+  grid-column: 1;
+  /*Flexbox*/
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  font-size: 16px;
+}
+.footer-conteiner .footer-item-media .footer-icon {
+  text-decoration: none;
+  color: rgb(92, 130, 108);
+  cursor: pointer;
+}
+.footer-conteiner .footer-item-media .media-icon {
+  width: 35px;
+  height: 35px;
+}
+.footer-conteiner .footer-item-phrase {
+  /*Grid*/
+  grid-column: 3;
+  text-align: end;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

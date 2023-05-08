@@ -1,0 +1,22 @@
+@import "../base/colores";
+
+/*Section Title*/
+
+
+.title {
+    color: $textos-oscuros;
+    background-color: $bg-title;
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    padding: 60px;
+
+    #title {
+        letter-spacing: 7px;
+        font-style: italic;
+        font-size: 3rem;
+    }
+
+    #subtitle {
+        font-size: 4rem;
+    }
+}

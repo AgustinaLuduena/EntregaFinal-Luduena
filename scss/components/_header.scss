@@ -1,0 +1,38 @@
+@import "../base/colores";
+
+
+/*Header CSS*/
+
+header{
+    .navbar {
+        background-color: $bg-navbar;
+
+        .navbar-brand {
+            margin: 0px 12px;
+        }
+        .logo{
+            width: 70px;
+            height: 70px;
+        }
+
+        #navbarNav {
+            .nav-link.active.ok {
+                color: $textos-claros;
+                font-size: 20px;
+                text-decoration: underline;
+                font-style: italic;
+            }
+
+            .nav-link {
+                color: $textos-claros;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
