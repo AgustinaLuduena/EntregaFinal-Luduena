@@ -1,0 +1,19 @@
+/*Page Galería*/
+
+.galeria-conteiner {
+    width: 100%;
+    margin: 40px auto;
+    /*FlexBox*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+        #carouselExample-delfina, #carouselExample-compromiso, #carouselExample-gianluca, #carouselExample-eli, #carouselExample-tomas, #carouselExample-bautismo {
+            width: 25%;
+            margin: 10px;
+        }
+}
+
+
+
+
