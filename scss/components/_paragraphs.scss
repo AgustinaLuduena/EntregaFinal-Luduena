@@ -55,58 +55,63 @@
 
 /*Page Servicios*/
 
-#servicios-conteiner {
-    .servicios-introduction {
-        background-color: $bg-principal-card;
-        font-family: 'Poppins', sans-serif;
-        font-size: 26px;
-        font-style: italic;
-        padding: 10px;   
-        text-align: center;
 
-            .uno, .dos {
-                margin: 40px;
-            }
+.servicios-introduction {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;   
+    text-align: center;
+    margin: 40px;
 
-    }
-    
-    
-    .servicios-detalle {
-        h3 {
-            font-size: 28px;
-            font-family: 'Poppins', sans-serif;
-            margin: 30px;
+        .uno {
+            font-size: 32px;
             font-style: italic;
-            text-align: center;
+            padding: 30px 100px;
         }
-        
-        .cuatro {
-            margin: 10px 20px;
-            padding-right: 30px;
-            /*FlexBox*/
-            display: flex;
-            flex-direction: column;
-        
-            .item-servicios {
-                font-family: 'Poppins', sans-serif;
-                font-size: 25px;
-                list-style-type: circle;
-                list-style-position: inside;
-                padding: 20px;
-            }
+
+        .dos {
+            font-size: 24px;
+            padding: 30px 100px;
         }
-        
-        .cinco {
-            font-family: 'Poppins', sans-serif;
-            font-size: 28px;
-            margin: 20px;
-            display: flex;
-            justify-content: center;
-            font-style: italic;
-        }
-    }
 
 }
+        
+.servicios-detalle {
+    h3 {
+        font-size: 28px;
+        font-family: 'Poppins', sans-serif;
+        margin: 30px;
+        padding-top: 50px;
+        font-style: italic;
+        text-align: center;
+    }
+    
+    .cuatro {
+        margin: 10px 20px;
+        padding-right: 30px;
+        /*FlexBox*/
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+        .item-servicios {
+            font-family: 'Poppins', sans-serif;
+            font-size: 25px;
+            list-style-type: circle;
+            list-style-position: inside;
+            padding: 20px;
+        }
+    }
+    
+    .cinco {
+        font-family: 'Poppins', sans-serif;
+        font-size: 28px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        font-style: italic;
+    }
+}
+
 
 
 /*Page Contacto*/

@@ -23,7 +23,7 @@
 .second-button {
     display: flex;
     justify-content: center;
-    margin: 60px 0px;
+    margin: 60px 20px;
 
     #button {
         background-color: $bg-buttons;
@@ -39,3 +39,26 @@
     }
 }
 
+
+.buttons-servicios {
+    display: flex;
+    justify-content: center;
+}
+
+
+#button-redes {
+    background-color: rgb(236, 124, 142);
+    border: $border-buttons;
+    font-size: 25px;
+    padding: 15px;
+}
+
+#button:hover {
+    transform: scale(1.1);
+    transition: all 2s;
+}
+
+#button-redes:hover {
+    transform: scale(1.1);
+    transition: all 2s;
+}

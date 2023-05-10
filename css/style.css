@@ -83,39 +83,46 @@ header .navbar #navbarNav .nav-link {
 }
 
 /*Page Servicios*/
-#servicios-conteiner .servicios-introduction {
-  background-color: rgb(198, 211, 173);
+.servicios-introduction {
   font-family: "Poppins", sans-serif;
-  font-size: 26px;
-  font-style: italic;
   padding: 10px;
   text-align: center;
-}
-#servicios-conteiner .servicios-introduction .uno, #servicios-conteiner .servicios-introduction .dos {
   margin: 40px;
 }
-#servicios-conteiner .servicios-detalle h3 {
+.servicios-introduction .uno {
+  font-size: 32px;
+  font-style: italic;
+  padding: 30px 100px;
+}
+.servicios-introduction .dos {
+  font-size: 24px;
+  padding: 30px 100px;
+}
+
+.servicios-detalle h3 {
   font-size: 28px;
   font-family: "Poppins", sans-serif;
   margin: 30px;
+  padding-top: 50px;
   font-style: italic;
   text-align: center;
 }
-#servicios-conteiner .servicios-detalle .cuatro {
+.servicios-detalle .cuatro {
   margin: 10px 20px;
   padding-right: 30px;
   /*FlexBox*/
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
-#servicios-conteiner .servicios-detalle .cuatro .item-servicios {
+.servicios-detalle .cuatro .item-servicios {
   font-family: "Poppins", sans-serif;
   font-size: 25px;
   list-style-type: circle;
   list-style-position: inside;
   padding: 20px;
 }
-#servicios-conteiner .servicios-detalle .cinco {
+.servicios-detalle .cinco {
   font-family: "Poppins", sans-serif;
   font-size: 28px;
   margin: 20px;
@@ -159,7 +166,7 @@ main .paragraph-contacto {
 .second-button {
   display: flex;
   justify-content: center;
-  margin: 60px 0px;
+  margin: 60px 20px;
 }
 .second-button #button {
   background-color: rgb(147, 173, 147);
@@ -171,6 +178,28 @@ main .paragraph-contacto {
   text-decoration: none;
   color: beige;
   font-style: italic;
+}
+
+.buttons-servicios {
+  display: flex;
+  justify-content: center;
+}
+
+#button-redes {
+  background-color: rgb(236, 124, 142);
+  border: rgb(75, 107, 75);
+  font-size: 25px;
+  padding: 15px;
+}
+
+#button:hover {
+  transform: scale(1.1);
+  transition: all 2s;
+}
+
+#button-redes:hover {
+  transform: scale(1.1);
+  transition: all 2s;
 }
 
 /*Footer*/
@@ -306,45 +335,51 @@ main .paragraph-contacto {
 }
 
 /*Page Servicios*/
-#servicios-conteiner {
-  margin: 20px 0px 0px 30px;
-  /*Grid*/
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: auto;
-}
-#servicios-conteiner .servicios-introduction {
-  grid-column: 1;
-  /*Flexbox*/
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-#servicios-conteiner .servicios-detalle {
-  grid-column: 2;
-}
-#servicios-conteiner .servicios-detalle .cuatro .item-servicios:hover {
-  transform: scale(1.1);
-  transform: translateX(20px);
-  transform: translateY(15px);
+.cuatro .item-servicios:hover {
+  transform: translateX(15px);
   transition: all 2s;
 }
 
 .seis {
-  /*Flexbox*/
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1;
+}
+.seis .servicios-img {
+  width: 100%;
+  align-items: center;
+}
+.seis .servicios-1 {
+  grid-column: 1;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
-  margin-top: 50px;
+  padding: 5px;
+  margin-top: 15px;
 }
-
-.servicios-3 {
-  width: 34%;
+.seis .servicios-2 {
+  grid-column: 3;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin-top: 15px;
 }
-
-.servicios-4 {
-  width: 64%;
+.seis .servicios-3 {
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.seis .servicios-1:hover {
+  transform: scale(1.2);
+  transition: all 3s;
+}
+.seis .servicios-2:hover {
+  transform: scale(1.2);
+  transition: all 3s;
+}
+.seis .servicios-3:hover {
+  transform: scale(1.3);
+  transition: all 3s;
 }
 
 /*Page Contacto*/
