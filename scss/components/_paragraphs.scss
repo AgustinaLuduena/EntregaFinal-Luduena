@@ -186,12 +186,21 @@
                     padding: 10px;
                 } 
         }
+
+        @include responsive (900px) {
+            margin: 10px;
+            padding-right: 0px;
+        } 
     }
     
     .cinco {
         @include basic-texts (28px, italic, 20px);
         font-family: 'Poppins', sans-serif;
         @extend %center;
+
+            @include responsive (900px) {
+                @include basic-texts (25px, italic, 14px);
+            } 
     }
 }
 

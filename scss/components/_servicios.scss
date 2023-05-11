@@ -70,7 +70,8 @@
 
 
         @include responsive (1500px) {
-        @extend %center;
+        display: flex;
+        justify-content: center;
         align-items: center;
     } 
 }
