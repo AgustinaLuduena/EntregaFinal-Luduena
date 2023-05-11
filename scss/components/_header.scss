@@ -19,7 +19,7 @@ header{
 
         #navbarNav {
             .nav-link.active.ok {
-                @include navbar-text ($textos-claros, 20px);
+                @include navbar-text ($textos-claros, 18px);
                 text-decoration: underline;
                 font-style: italic;
             }

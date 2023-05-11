@@ -11,35 +11,35 @@
     #title {
         letter-spacing: 7px;
         font-style: italic;
-        font-size: 3rem;
+        font-size: 42px;
 
 
         @include responsive (1500px) {
-            font-size: 36px;
+            font-size: 34px;
         } 
 
         @include responsive (1300px) {
-            font-size: 32px;
+            font-size: 30px;
         } 
 
         @include responsive (900px) {
-            font-size: 28px;
+            font-size: 26px;
         } 
     }
 
     #subtitle {
-        font-size: 4rem;
+        font-size: 60px;
 
         @include responsive (1500px) {
-            font-size: 52px;
+            font-size: 50px;
         } 
 
         @include responsive (1300px) {
-            font-size: 45px;
+            font-size: 42px;
         } 
 
         @include responsive (900px) {
-            font-size: 38px;
+            font-size: 35px;
         } 
     }
 }

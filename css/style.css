@@ -59,14 +59,14 @@
 .first-button #button {
   background-color: rgb(147, 173, 147);
   border: rgb(75, 107, 75);
-  font-size: 25px;
-  padding: 15px;
+  font-size: 20px;
+  padding: 12px;
 }
 @media screen and (max-width: 900px) {
   .first-button #button {
     background-color: rgb(147, 173, 147);
     border: rgb(75, 107, 75);
-    font-size: 17px;
+    font-size: 16px;
     padding: 5px;
   }
 }
@@ -74,7 +74,7 @@
   .first-button #button {
     background-color: rgb(147, 173, 147);
     border: rgb(75, 107, 75);
-    font-size: 15px;
+    font-size: 14px;
     padding: 5px;
   }
 }
@@ -87,14 +87,14 @@
 #button-redes {
   background-color: rgb(236, 124, 142);
   border: rgb(75, 107, 75);
-  font-size: 25px;
-  padding: 15px;
+  font-size: 20px;
+  padding: 12px;
 }
 @media screen and (max-width: 900px) {
   #button-redes {
     background-color: rgb(236, 124, 142);
     border: rgb(75, 107, 75);
-    font-size: 17px;
+    font-size: 16px;
     padding: 5px;
   }
 }
@@ -102,7 +102,7 @@
   #button-redes {
     background-color: rgb(236, 124, 142);
     border: rgb(75, 107, 75);
-    font-size: 15px;
+    font-size: 14px;
     padding: 5px;
   }
 }
@@ -204,7 +204,7 @@
 }
 @media screen and (max-width: 800px) {
   .contacto-images .center.contacto-img {
-    transform: scale(1.4);
+    transform: scale(2);
   }
 }
 @media screen and (max-width: 800px) {
@@ -248,7 +248,7 @@
 /*Footer*/
 .footer-conteiner {
   background-color: rgb(220, 220, 220);
-  padding: 30px;
+  padding: 20px;
   /*Grid*/
   display: grid;
   grid-template-columns: 3;
@@ -259,7 +259,7 @@
   /*Flexbox*/
   display: flex;
   align-items: center;
-  font-size: 15px;
+  font-size: 12px;
   font-style: italic;
   margin: 0px;
 }
@@ -269,20 +269,20 @@
   cursor: pointer;
 }
 .footer-conteiner .footer-item-media .media-icon {
-  width: 35px;
-  height: 35px;
+  width: 32px;
+  height: 32px;
 }
 .footer-conteiner .footer-item-phrase {
   /*Grid*/
   grid-column: 3;
   text-align: end;
-  font-size: 20px;
+  font-size: 18px;
   font-style: italic;
   margin: 0px 0px 40px 0px;
 }
 @media screen and (max-width: 900px) {
   .footer-conteiner .footer-item-phrase {
-    font-size: 15px;
+    font-size: 14px;
     font-style: italic;
     margin: 0px 0px 30px 0px;
   }
@@ -335,7 +335,7 @@
 }
 @media screen and (max-width: 900px) {
   .galeria-conteiner {
-    margin: 25px;
+    margin: 15px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -384,7 +384,7 @@ header .navbar .logo {
 }
 header .navbar #navbarNav .nav-link.active.ok {
   color: beige;
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: underline;
   font-style: italic;
 }
@@ -445,18 +445,27 @@ header .navbar #navbarNav .nav-link {
   .first-conteiner .logo-image-conteiner-nosotros .nosotros-image-logo {
     width: 60%;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
   }
 }
 @media screen and (max-width: 1300px) {
   .first-conteiner .logo-image-conteiner-nosotros .nosotros-image-logo {
     width: 50%;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
   }
 }
 @media screen and (max-width: 900px) {
   .first-conteiner .logo-image-conteiner-nosotros .nosotros-image-logo {
     width: 40%;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
   }
 }
 .first-conteiner .logo-image-conteiner-nosotros:hover {
@@ -533,72 +542,72 @@ header .navbar #navbarNav .nav-link {
   color: rgb(22, 22, 22);
   font-family: "Raleway", sans-serif;
   text-align: center;
-  padding: 45px;
+  padding: 40px;
 }
 .section-paragraph .paragraph-introduction {
-  font-size: 35px;
+  font-size: 28px;
   font-style: italic;
   margin: 65px;
   font-family: "Ysabeau", sans-serif;
 }
 @media screen and (max-width: 1500px) {
   .section-paragraph .paragraph-introduction {
-    font-size: 30px;
+    font-size: 26px;
     font-style: none;
     margin: 70px 250px 40px 250px;
   }
 }
 @media screen and (max-width: 1300px) {
   .section-paragraph .paragraph-introduction {
-    font-size: 28px;
+    font-size: 24px;
     font-style: none;
     margin: 60px 150px 40px 150px;
   }
 }
 @media screen and (max-width: 900px) {
   .section-paragraph .paragraph-introduction {
-    font-size: 26px;
+    font-size: 24px;
     font-style: none;
     margin: 50px 80px;
   }
 }
 @media screen and (max-width: 700px) {
   .section-paragraph .paragraph-introduction {
-    font-size: 24px;
+    font-size: 22px;
     font-style: none;
     margin: 50px 30px;
   }
 }
 .section-paragraph .paragraph-text {
-  font-size: 30px;
+  font-size: 26px;
   font-style: none;
   margin: 90px 390px 40px 390px;
   font-family: "Ysabeau", sans-serif;
 }
 @media screen and (max-width: 1500px) {
   .section-paragraph .paragraph-text {
-    font-size: 28px;
+    font-size: 26px;
     font-style: none;
     margin: 70px 250px 40px 250px;
   }
 }
 @media screen and (max-width: 1300px) {
   .section-paragraph .paragraph-text {
-    font-size: 26px;
+    font-size: 24px;
     font-style: none;
     margin: 60px 150px 40px 150px;
   }
 }
 @media screen and (max-width: 900px) {
   .section-paragraph .paragraph-text {
-    font-size: 26px;
+    font-size: 22px;
     font-style: none;
     margin: 50px 80px;
   }
 }
 @media screen and (max-width: 700px) {
   .section-paragraph .paragraph-text {
-    font-size: 26px;
+    font-size: 22px;
     font-style: none;
     margin: 50px 30px;
   }
@@ -621,35 +630,35 @@ header .navbar #navbarNav .nav-link {
 
 /*Page Nosotros*/
 .paragraph-introduction {
-  font-size: 35px;
+  font-size: 28px;
   font-style: italic;
   margin: 65px;
   font-family: "Ysabeau", sans-serif;
 }
 @media screen and (max-width: 1500px) {
   .paragraph-introduction {
-    font-size: 30px;
+    font-size: 26px;
     font-style: none;
     margin: 70px 250px 40px 250px;
   }
 }
 @media screen and (max-width: 1300px) {
   .paragraph-introduction {
-    font-size: 28px;
+    font-size: 24px;
     font-style: none;
     margin: 60px 150px 40px 150px;
   }
 }
 @media screen and (max-width: 900px) {
   .paragraph-introduction {
-    font-size: 26px;
+    font-size: 24px;
     font-style: none;
     margin: 50px 80px;
   }
 }
 @media screen and (max-width: 700px) {
   .paragraph-introduction {
-    font-size: 24px;
+    font-size: 22px;
     font-style: none;
     margin: 50px 30px;
   }
@@ -696,22 +705,29 @@ header .navbar #navbarNav .nav-link {
 
 /*Page Galería*/
 .paragraph-galeria {
-  font-size: 2rem;
+  font-size: 30px;
   font-style: none;
   margin: 30px 0px 85px 0px;
   text-align: center;
   font-family: "Josefin Slab", serif;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1300px) {
   .paragraph-galeria {
     font-size: 28px;
     font-style: none;
     margin: 30px 0px 65px 0px;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .paragraph-galeria {
     font-size: 26px;
+    font-style: none;
+    margin: 30px 0px 65px 0px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .paragraph-galeria {
+    font-size: 24px;
     font-style: none;
     margin: 30px 0px 55px 0px;
   }
@@ -725,7 +741,7 @@ header .navbar #navbarNav .nav-link {
   margin: 40px;
 }
 .servicios-introduction .uno {
-  font-size: 32px;
+  font-size: 28px;
   font-style: italic;
   margin: 0px;
   padding: 25px 80px;
@@ -769,7 +785,7 @@ header .navbar #navbarNav .nav-link {
 }
 
 .servicios-detalle h3 {
-  font-size: 28px;
+  font-size: 26px;
   font-style: italic;
   margin: 30px;
   font-family: "Poppins", sans-serif;
@@ -791,14 +807,14 @@ header .navbar #navbarNav .nav-link {
 }
 .servicios-detalle .cuatro .item-servicios {
   font-family: "Poppins", sans-serif;
-  font-size: 25px;
+  font-size: 22px;
   list-style-type: circle;
   list-style-position: inside;
   padding: 20px;
 }
 @media screen and (max-width: 900px) {
   .servicios-detalle .cuatro .item-servicios {
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px;
   }
 }
@@ -809,14 +825,14 @@ header .navbar #navbarNav .nav-link {
   }
 }
 .servicios-detalle .cinco {
-  font-size: 28px;
+  font-size: 24px;
   font-style: italic;
   margin: 20px;
   font-family: "Poppins", sans-serif;
 }
 @media screen and (max-width: 900px) {
   .servicios-detalle .cinco {
-    font-size: 25px;
+    font-size: 22px;
     font-style: italic;
     margin: 14px;
   }
@@ -827,19 +843,19 @@ main {
   text-align: center;
 }
 main .contacto {
-  font-size: 35px;
+  font-size: 30px;
   font-style: none;
   margin: 70px;
 }
 main .paragraph-contacto {
-  font-size: 32px;
+  font-size: 28px;
   font-style: italic;
   margin: 10px 30px;
   font-family: "Poppins", sans-serif;
 }
 @media screen and (max-width: 900px) {
   main .paragraph-contacto {
-    font-size: 28px;
+    font-size: 25px;
     font-style: italic;
     margin: 10px 20px;
     font-family: "Poppins", sans-serif;
@@ -994,39 +1010,39 @@ main .second-text-conteiner-contacto {
 .title #title {
   letter-spacing: 7px;
   font-style: italic;
-  font-size: 3rem;
+  font-size: 42px;
 }
 @media screen and (max-width: 1500px) {
   .title #title {
-    font-size: 36px;
+    font-size: 34px;
   }
 }
 @media screen and (max-width: 1300px) {
   .title #title {
-    font-size: 32px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 900px) {
   .title #title {
-    font-size: 28px;
+    font-size: 26px;
   }
 }
 .title #subtitle {
-  font-size: 4rem;
+  font-size: 60px;
 }
 @media screen and (max-width: 1500px) {
   .title #subtitle {
-    font-size: 52px;
+    font-size: 50px;
   }
 }
 @media screen and (max-width: 1300px) {
   .title #subtitle {
-    font-size: 45px;
+    font-size: 42px;
   }
 }
 @media screen and (max-width: 900px) {
   .title #subtitle {
-    font-size: 38px;
+    font-size: 35px;
   }
 }
 

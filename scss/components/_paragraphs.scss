@@ -6,42 +6,42 @@
     color: $textos-oscuros;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    padding: 45px;
+    padding: 40px;
 
     .paragraph-introduction {
-        @include basic-texts (35px, italic, 65px);
+        @include basic-texts (28px, italic, 65px);
         font-family: 'Ysabeau', sans-serif;
 
             @include responsive (1500px) {
-                @include basic-texts (30px, none, 70px 250px 40px 250px);
+                @include basic-texts (26px, none, 70px 250px 40px 250px);
             } 
             @include responsive (1300px) {
-                @include basic-texts (28px, none, 60px 150px 40px 150px);
+                @include basic-texts (24px, none, 60px 150px 40px 150px);
             } 
             @include responsive (900px) {
-                @include basic-texts (26px, none, 50px 80px);
+                @include basic-texts (24px, none, 50px 80px);
             } 
             @include responsive (700px) {
-                @include basic-texts (24px, none, 50px 30px);
+                @include basic-texts (22px, none, 50px 30px);
             } 
 
     }
     
     .paragraph-text {
-        @include basic-texts (30px, none, 90px 390px 40px 390px);
+        @include basic-texts (26px, none, 90px 390px 40px 390px);
         font-family: 'Ysabeau', sans-serif;
 
         @include responsive (1500px) {
-            @include basic-texts (28px, none, 70px 250px 40px 250px);
+            @include basic-texts (26px, none, 70px 250px 40px 250px);
         } 
         @include responsive (1300px) {
-            @include basic-texts (26px, none, 60px 150px 40px 150px);
+            @include basic-texts (24px, none, 60px 150px 40px 150px);
         } 
         @include responsive (900px) {
-            @include basic-texts (26px, none, 50px 80px);
+            @include basic-texts (22px, none, 50px 80px);
         } 
         @include responsive (700px) {
-            @include basic-texts (26px, none, 50px 30px);
+            @include basic-texts (22px, none, 50px 30px);
         } 
     }
     
@@ -54,21 +54,22 @@
 /*Page Nosotros*/
 
 .paragraph-introduction {
-        @include basic-texts (35px, italic, 65px);
-        font-family: 'Ysabeau', sans-serif;
+    @include basic-texts (28px, italic, 65px);
+    font-family: 'Ysabeau', sans-serif;
 
         @include responsive (1500px) {
-            @include basic-texts (30px, none, 70px 250px 40px 250px);
+            @include basic-texts (26px, none, 70px 250px 40px 250px);
         } 
         @include responsive (1300px) {
-            @include basic-texts (28px, none, 60px 150px 40px 150px);
+            @include basic-texts (24px, none, 60px 150px 40px 150px);
         } 
         @include responsive (900px) {
-            @include basic-texts (26px, none, 50px 80px);
+            @include basic-texts (24px, none, 50px 80px);
         } 
         @include responsive (700px) {
-            @include basic-texts (24px, none, 50px 30px);
+            @include basic-texts (22px, none, 50px 30px);
         } 
+
 }
 
 .paragraph-nosotros {
@@ -97,15 +98,18 @@
 /*Page Galería*/
 
 .paragraph-galeria {
-    @include basic-texts (2rem, none, 30px 0px 85px 0px);
+    @include basic-texts (30px, none, 30px 0px 85px 0px);
     text-align: center;
     font-family: 'Josefin Slab', serif;
 
-        @include responsive (900px) {
+        @include responsive (1300px) {
             @include basic-texts (28px, none, 30px 0px 65px 0px);
         } 
+        @include responsive (900px) {
+            @include basic-texts (26px, none, 30px 0px 65px 0px);
+        } 
         @include responsive (700px) {
-            @include basic-texts (26px, none, 30px 0px 55px 0px);
+            @include basic-texts (24px, none, 30px 0px 55px 0px);
         } 
 }
 
@@ -120,7 +124,7 @@
     margin: 40px;
 
         .uno {
-            @include basic-texts (32px, italic, 0px);
+            @include basic-texts (28px, italic, 0px);
             padding: 25px 80px;
 
                 @include responsive (900px) {
@@ -156,7 +160,7 @@
         
 .servicios-detalle {
     h3 {
-        @include basic-texts (28px, italic, 30px);
+        @include basic-texts (26px, italic, 30px);
         font-family: 'Poppins', sans-serif;
         padding-top: 50px;
         text-align: center;
@@ -176,13 +180,13 @@
     
         .item-servicios {
             font-family: 'Poppins', sans-serif;
-            font-size: 25px;
+            font-size: 22px;
             list-style-type: circle;
             list-style-position: inside;
             padding: 20px;
 
                 @include responsive (900px) {
-                    font-size: 18px;
+                    font-size: 16px;
                     padding: 10px;
                 } 
         }
@@ -194,12 +198,12 @@
     }
     
     .cinco {
-        @include basic-texts (28px, italic, 20px);
+        @include basic-texts (24px, italic, 20px);
         font-family: 'Poppins', sans-serif;
         @extend %center;
 
             @include responsive (900px) {
-                @include basic-texts (25px, italic, 14px);
+                @include basic-texts (22px, italic, 14px);
             } 
     }
 }
@@ -211,15 +215,15 @@ main {
     text-align: center;
 
     .contacto {
-        @include basic-texts (35px, none, 70px);
+        @include basic-texts (30px, none, 70px);
     }
     
     .paragraph-contacto {
-        @include basic-texts (32px, italic, 10px 30px);
+        @include basic-texts (28px, italic, 10px 30px);
         font-family: 'Poppins', sans-serif;
 
             @include responsive (900px) {
-                @include basic-texts (28px, italic, 10px 20px);
+                @include basic-texts (25px, italic, 10px 20px);
                 font-family: 'Poppins', sans-serif;
             } 
     }

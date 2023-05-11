@@ -6,7 +6,7 @@
 
     .footer-conteiner {
         background-color: $bg-footer;
-        padding: 30px;
+        padding: 20px;
         /*Grid*/
         display: grid;
         grid-template-columns: 3;
@@ -18,7 +18,7 @@
                 /*Flexbox*/
                 display: flex;
                 align-items: center;
-                @include basic-texts (15px, italic, 0px);
+                @include basic-texts (12px, italic, 0px);
 
 
                     .footer-icon {
@@ -28,8 +28,8 @@
                     }
 
                     .media-icon {
-                        width: 35px;
-                        height: 35px;
+                        width: 32px;
+                        height: 32px;
                     }
             }
 
@@ -37,10 +37,10 @@
                 /*Grid*/
                 grid-column: 3;
                 text-align: end;
-                @include basic-texts (20px, italic, 0px 0px 40px 0px);
+                @include basic-texts (18px, italic, 0px 0px 40px 0px);
 
                     @include responsive (900px) {
-                    @include basic-texts (15px, italic, 0px 0px 30px 0px);
+                    @include basic-texts (14px, italic, 0px 0px 30px 0px);
                 } 
             }
     }
