@@ -216,6 +216,10 @@ main {
 
     .contacto {
         @include basic-texts (26px, none, 70px);
+
+            @include responsive (900px) {
+                @include basic-texts (24px, none, 20px);
+            } 
     }
     
     .paragraph-contacto {

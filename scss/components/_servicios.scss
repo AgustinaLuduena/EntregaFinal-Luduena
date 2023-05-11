@@ -14,38 +14,35 @@
 
 .seis {
     @include grid (grid, 1fr 2fr 1fr);
-
-    .servicios-img {
-        width: 100%;
-        align-items: center;
-
-        @include responsive (900px) {
-            width: 80%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        } 
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .servicios-1 {
+        width: 22%;
+        align-items: center;
         @include img-servicios (1, 5px, 15px);
         @extend %center;
 
-        @include responsive (1500px) {
-            @include img-servicios (1,5px,0px)
-        } 
+            @include responsive (1300px) {
+                @include img-servicios (1,5px,0px)
+            } 
     }
 
     .servicios-2 {
+        width: 22%;
+        align-items: center;
         @include img-servicios (3, 5px, 15px);
         @extend %center;
 
-        @include responsive (1500px) {
-            @include img-servicios (3,5px,0px)
-        } 
+            @include responsive (1300px) {
+                @include img-servicios (3,5px,0px)
+            } 
     }
 
     .servicios-3 {
+        width: 50%;
+        align-items: center;
         @include img-servicios (2, 5px, 0px);
         @extend %center;
     }
@@ -63,9 +60,4 @@
     }
 
 
-        @include responsive (1300px) {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } 
 }

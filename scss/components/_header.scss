@@ -13,19 +13,19 @@ header{
             margin: 0px 12px;
         }
         .logo{
-            width: 70px;
-            height: 70px;
+            width: 60px;
+            height: 60px;
         }
 
         #navbarNav {
             .nav-link.active.ok {
-                @include navbar-text ($textos-claros, 18px);
+                @include navbar-text ($textos-claros, 15px);
                 text-decoration: underline;
                 font-style: italic;
             }
 
             .nav-link {
-                @include navbar-text ($textos-claros, 18px);
+                @include navbar-text ($textos-claros, 15px);
             }
         }
     }

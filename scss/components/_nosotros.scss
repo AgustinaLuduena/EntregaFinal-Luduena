@@ -7,11 +7,16 @@
 .first-conteiner {
     /*Grid*/
     @include grid (grid, 1fr 2fr);
+    display: flex;
+    justify-content: center;
+
 
     .logo-image-conteiner-nosotros {
         /*Grid*/
         grid-column: 1;
-        @extend %img-nosotros;
+        display: flex;
+        justify-content: center;
+
 
         .nosotros-image-logo {
             width: 75%;
@@ -44,8 +49,7 @@
     
 
     .logo-image-conteiner-nosotros:hover {
-        @include animations (rotate(-360deg), all 5s);
-        
+        @include animations (scale(1.2), all 3s);
     }
     
     .text-conteiner {
