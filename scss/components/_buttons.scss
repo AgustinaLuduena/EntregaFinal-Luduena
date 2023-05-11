@@ -5,16 +5,16 @@
 
 .first-button {
     @extend %center;
-    margin-bottom: 60px;
+    margin: 60px;
 
     #button {
         @include buttons ($bg-buttons, $border-buttons, 25px, 15px);
 
             @include responsive (900px) {
-                @include buttons ($bg-buttons, $border-buttons, 20px, 12px);
+                @include buttons ($bg-buttons, $border-buttons, 17px, 10px);
             } 
             @include responsive (700px) {
-                @include buttons ($bg-buttons, $border-buttons, 18px, 12px);
+                @include buttons ($bg-buttons, $border-buttons, 15px, 10px);
             } 
     }
     
@@ -23,19 +23,6 @@
     }
 }
 
-
-.second-button {
-    @extend %center;
-    margin: 60px 20px;
-
-    #button {
-        @include buttons ($bg-buttons, $border-buttons, 25px, 15px);
-    }
-
-    .link-conocenos {
-        @extend %buttons-text;
-    }
-}
 
 
 .buttons-servicios {
@@ -47,10 +34,10 @@
     @include buttons ($bg-buttons-redes, $border-buttons, 25px, 15px);
 
         @include responsive (900px) {
-            @include buttons ($bg-buttons-redes, $border-buttons, 20px, 12px);
+            @include buttons ($bg-buttons, $border-buttons, 17px, 10px);
         } 
         @include responsive (700px) {
-            @include buttons ($bg-buttons-redes, $border-buttons, 18px, 12px);
+            @include buttons ($bg-buttons, $border-buttons, 15px, 10px);
         } 
 }
 
