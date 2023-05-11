@@ -19,12 +19,6 @@
         width: 100%;
         align-items: center;
 
-        @include responsive (1500px) {
-            width: 60%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        } 
         @include responsive (900px) {
             width: 80%;
             display: flex;
@@ -38,7 +32,7 @@
         @extend %center;
 
         @include responsive (1500px) {
-            @include img-servicios (3,5px,0px)
+            @include img-servicios (1,5px,0px)
         } 
     }
 
@@ -69,7 +63,7 @@
     }
 
 
-        @include responsive (1500px) {
+        @include responsive (1300px) {
         display: flex;
         justify-content: center;
         align-items: center;

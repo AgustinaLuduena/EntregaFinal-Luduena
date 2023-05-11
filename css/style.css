@@ -204,7 +204,7 @@
 }
 @media screen and (max-width: 800px) {
   .contacto-images .center.contacto-img {
-    transform: scale(2);
+    transform: scale(1.8);
   }
 }
 @media screen and (max-width: 800px) {
@@ -748,7 +748,7 @@ header .navbar #navbarNav .nav-link {
 }
 @media screen and (max-width: 900px) {
   .servicios-introduction .uno {
-    font-size: 26px;
+    font-size: 24px;
     font-style: italic;
     margin: 0px;
     padding: 15px 20px;
@@ -756,7 +756,7 @@ header .navbar #navbarNav .nav-link {
 }
 @media screen and (max-width: 700px) {
   .servicios-introduction .uno {
-    font-size: 24px;
+    font-size: 22px;
     font-style: italic;
     margin: 0px;
     padding: 12px 10px;
@@ -785,7 +785,7 @@ header .navbar #navbarNav .nav-link {
 }
 
 .servicios-detalle h3 {
-  font-size: 26px;
+  font-size: 24px;
   font-style: italic;
   margin: 30px;
   font-family: "Poppins", sans-serif;
@@ -814,7 +814,7 @@ header .navbar #navbarNav .nav-link {
 }
 @media screen and (max-width: 900px) {
   .servicios-detalle .cuatro .item-servicios {
-    font-size: 16px;
+    font-size: 18px;
     padding: 10px;
   }
 }
@@ -843,19 +843,19 @@ main {
   text-align: center;
 }
 main .contacto {
-  font-size: 30px;
+  font-size: 26px;
   font-style: none;
   margin: 70px;
 }
 main .paragraph-contacto {
-  font-size: 28px;
+  font-size: 24px;
   font-style: italic;
   margin: 10px 30px;
   font-family: "Poppins", sans-serif;
 }
 @media screen and (max-width: 900px) {
   main .paragraph-contacto {
-    font-size: 25px;
+    font-size: 22px;
     font-style: italic;
     margin: 10px 20px;
     font-family: "Poppins", sans-serif;
@@ -914,14 +914,6 @@ main .second-text-conteiner-contacto {
   width: 100%;
   align-items: center;
 }
-@media screen and (max-width: 1500px) {
-  .seis .servicios-img {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
 @media screen and (max-width: 900px) {
   .seis .servicios-img {
     width: 80%;
@@ -937,7 +929,7 @@ main .second-text-conteiner-contacto {
 }
 @media screen and (max-width: 1500px) {
   .seis .servicios-1 {
-    grid-column: 3;
+    grid-column: 1;
     padding: 5px;
     margin-top: 0px;
   }
@@ -971,7 +963,7 @@ main .second-text-conteiner-contacto {
   transform: scale(1.3);
   transition: all 3s;
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1300px) {
   .seis {
     display: flex;
     justify-content: center;
