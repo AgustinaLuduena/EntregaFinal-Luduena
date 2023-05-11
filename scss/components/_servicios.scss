@@ -25,7 +25,10 @@
         @extend %center;
 
             @include responsive (1300px) {
-                @include img-servicios (1,5px,0px)
+                @include img-servicios (1,5px,0px);        
+            } 
+            @include responsive (900px) {
+                display: none;
             } 
     }
 
@@ -38,6 +41,9 @@
             @include responsive (1300px) {
                 @include img-servicios (3,5px,0px)
             } 
+            @include responsive (900px) {
+                display: none;
+            } 
     }
 
     .servicios-3 {
@@ -45,6 +51,14 @@
         align-items: center;
         @include img-servicios (2, 5px, 0px);
         @extend %center;
+
+            @include responsive (900px) {
+                width: 80%;
+                margin: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            } 
     }
 
     .servicios-1:hover {
@@ -57,29 +71,6 @@
 
     .servicios-3:hover {
         @include animations ( scale(1.3), all 3s);
-    }
-
-
-    .servicios-1 {
-        @include responsive (900px) {
-            display: none;
-        } 
-    }
-
-    .servicios-2 {
-        @include responsive (900px) {
-            display: none;
-        } 
-    }
-
-    .servicios-3 {
-        @include responsive (900px) {
-            width: 80%;
-            margin: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        } 
     }
 
 }

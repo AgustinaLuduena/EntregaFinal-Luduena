@@ -218,7 +218,7 @@ main {
         @include basic-texts (26px, none, 70px);
 
             @include responsive (900px) {
-                @include basic-texts (24px, none, 45px 15px);
+                @include basic-texts (24px, none, 55px 15px);
             } 
     }
     

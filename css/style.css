@@ -855,7 +855,7 @@ main .contacto {
   main .contacto {
     font-size: 24px;
     font-style: none;
-    margin: 45px 15px;
+    margin: 55px 15px;
   }
 }
 main .paragraph-contacto {
@@ -938,6 +938,11 @@ main .second-text-conteiner-contacto {
     margin-top: 0px;
   }
 }
+@media screen and (max-width: 900px) {
+  .seis .servicios-1 {
+    display: none;
+  }
+}
 .seis .servicios-2 {
   width: 22%;
   align-items: center;
@@ -952,12 +957,26 @@ main .second-text-conteiner-contacto {
     margin-top: 0px;
   }
 }
+@media screen and (max-width: 900px) {
+  .seis .servicios-2 {
+    display: none;
+  }
+}
 .seis .servicios-3 {
   width: 50%;
   align-items: center;
   grid-column: 2;
   padding: 5px;
   margin-top: 0px;
+}
+@media screen and (max-width: 900px) {
+  .seis .servicios-3 {
+    width: 80%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .seis .servicios-1:hover {
   transform: scale(1.2);
@@ -970,25 +989,6 @@ main .second-text-conteiner-contacto {
 .seis .servicios-3:hover {
   transform: scale(1.3);
   transition: all 3s;
-}
-@media screen and (max-width: 900px) {
-  .seis .servicios-1 {
-    display: none;
-  }
-}
-@media screen and (max-width: 900px) {
-  .seis .servicios-2 {
-    display: none;
-  }
-}
-@media screen and (max-width: 900px) {
-  .seis .servicios-3 {
-    width: 80%;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 }
 
 /*REVISAR EXT INTRODUCTION!!!!!!!*/
