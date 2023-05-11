@@ -5,10 +5,7 @@
 /*Page Contacto*/
 
 .contacto-images {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1;
-
+    @include grid (grid, 1fr 2fr 1fr, 1);
 
     .contacto-img{
         width: 100%;

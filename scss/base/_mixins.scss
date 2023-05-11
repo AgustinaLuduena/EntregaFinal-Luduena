@@ -4,6 +4,11 @@
     margin: $margin;
 }
 
+@mixin grid ($grid, $columns, $rows) {
+    display: $grid;
+    grid-template-columns: $columns;
+    grid-template-rows: $rows;
+}
 
 @mixin animations ($transform, $transition) {
     transform: $transform;
@@ -26,4 +31,10 @@
     grid-column: $column;
     display: $display;
     align-items: $align;
+}
+
+@mixin img-servicios ($column, $padding, $margin) {
+    grid-column: $column;
+    padding: $padding;
+    margin-top: $margin;
 }

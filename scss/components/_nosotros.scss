@@ -6,8 +6,7 @@
 
 .first-conteiner {
     /*Grid*/
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    @include grid (grid, 1fr 2fr, 1);
 
     .logo-image-conteiner-nosotros {
         /*Grid*/

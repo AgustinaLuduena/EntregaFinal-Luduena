@@ -25,6 +25,12 @@
   padding: 60px;
 }
 
+.second-button .link-conocenos, .first-button .link-conocenos {
+  text-decoration: none;
+  color: beige;
+  font-style: italic;
+}
+
 .paragraph-introduction, .section-paragraph .paragraph-introduction {
   font-size: 35px;
   margin: 65px;
@@ -51,6 +57,12 @@
   padding: 60px;
 }
 
+.second-button .link-conocenos, .first-button .link-conocenos {
+  text-decoration: none;
+  color: beige;
+  font-style: italic;
+}
+
 .first-button {
   margin-bottom: 60px;
 }
@@ -60,12 +72,6 @@
   font-size: 25px;
   padding: 15px;
 }
-.first-button .link-conocenos {
-  text-decoration: none;
-  color: beige;
-  font-style: italic;
-}
-
 .second-button {
   margin: 60px 20px;
 }
@@ -75,12 +81,6 @@
   font-size: 25px;
   padding: 15px;
 }
-.second-button .link-conocenos {
-  text-decoration: none;
-  color: beige;
-  font-style: italic;
-}
-
 #button-redes {
   background-color: rgb(236, 124, 142);
   border: rgb(75, 107, 75);
@@ -122,6 +122,12 @@
   font-family: "Josefin Slab", serif;
   text-align: center;
   padding: 60px;
+}
+
+.first-button .link-conocenos, .second-button .link-conocenos {
+  text-decoration: none;
+  color: beige;
+  font-style: italic;
 }
 
 /*Page Contacto*/
@@ -191,6 +197,12 @@
   padding: 60px;
 }
 
+.first-button .link-conocenos, .second-button .link-conocenos {
+  text-decoration: none;
+  color: beige;
+  font-style: italic;
+}
+
 /*Footer*/
 .footer-conteiner {
   background-color: rgb(220, 220, 220);
@@ -254,6 +266,12 @@
   padding: 60px;
 }
 
+.first-button .link-conocenos, .second-button .link-conocenos {
+  text-decoration: none;
+  color: beige;
+  font-style: italic;
+}
+
 /*Page Galería*/
 .galeria-conteiner {
   width: 100%;
@@ -292,6 +310,12 @@
   font-family: "Josefin Slab", serif;
   text-align: center;
   padding: 60px;
+}
+
+.first-button .link-conocenos, .second-button .link-conocenos {
+  text-decoration: none;
+  color: beige;
+  font-style: italic;
 }
 
 /*Header CSS*/
@@ -342,11 +366,18 @@ header .navbar #navbarNav .nav-link {
   padding: 60px;
 }
 
+.first-button .link-conocenos, .second-button .link-conocenos {
+  text-decoration: none;
+  color: beige;
+  font-style: italic;
+}
+
 /*Page Nosotros*/
 .first-conteiner {
   /*Grid*/
   display: grid;
   grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1;
 }
 .first-conteiner .logo-image-conteiner-nosotros {
   /*Grid*/
@@ -421,6 +452,12 @@ header .navbar #navbarNav .nav-link {
   font-family: "Josefin Slab", serif;
   text-align: center;
   padding: 60px;
+}
+
+.first-button .link-conocenos, .second-button .link-conocenos {
+  text-decoration: none;
+  color: beige;
+  font-style: italic;
 }
 
 .section-paragraph {
@@ -550,6 +587,12 @@ main .second-text-conteiner-contacto {
   padding: 60px;
 }
 
+.first-button .link-conocenos, .second-button .link-conocenos {
+  text-decoration: none;
+  color: beige;
+  font-style: italic;
+}
+
 /*Page Servicios*/
 .cuatro .item-servicios:hover {
   transform: translateX(15px);
@@ -578,6 +621,7 @@ main .second-text-conteiner-contacto {
 .seis .servicios-3 {
   grid-column: 2;
   padding: 5px;
+  margin-top: 0px;
 }
 .seis .servicios-1:hover {
   transform: scale(1.2);
@@ -616,6 +660,12 @@ main .second-text-conteiner-contacto {
   font-family: "Josefin Slab", serif;
   text-align: center;
   padding: 60px;
+}
+
+.first-button .link-conocenos, .second-button .link-conocenos {
+  text-decoration: none;
+  color: beige;
+  font-style: italic;
 }
 
 /*Section Title*/

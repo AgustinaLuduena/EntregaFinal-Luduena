@@ -12,9 +12,7 @@
     }
     
     .link-conocenos {
-        text-decoration: none;
-        color: $textos-claros;
-        font-style: italic;
+        @extend %buttons-text;
     }
 }
 
@@ -28,9 +26,7 @@
     }
 
     .link-conocenos {
-        text-decoration: none;
-        color: $textos-claros;
-        font-style: italic;
+        @extend %buttons-text;
     }
 }
 

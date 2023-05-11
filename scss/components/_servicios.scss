@@ -13,9 +13,7 @@
 }
 
 .seis {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1;
+    @include grid (grid, 1fr 2fr 1fr, 1);
 
     .servicios-img {
         width: 100%;
@@ -23,23 +21,18 @@
     }
 
     .servicios-1 {
-        grid-column: 1;
+        @include img-servicios (1, 5px, 15px);
         @extend %center;
-        padding: 5px;
-        margin-top: 15px;
     }
 
     .servicios-2 {
-        grid-column: 3;
+        @include img-servicios (3, 5px, 15px);
         @extend %center;
-        padding: 5px;
-        margin-top: 15px;
     }
 
     .servicios-3 {
-        grid-column: 2;
+        @include img-servicios (2, 5px, 0px);
         @extend %center;
-        padding: 5px;
     }
 
     .servicios-1:hover {
