@@ -98,18 +98,18 @@
 /*Page Galería*/
 
 .paragraph-galeria {
-    @include basic-texts (30px, none, 30px 0px 85px 0px);
+    @include basic-texts (28px, none, 30px 0px 85px 0px);
     text-align: center;
     font-family: 'Josefin Slab', serif;
 
         @include responsive (1300px) {
-            @include basic-texts (28px, none, 30px 0px 65px 0px);
-        } 
-        @include responsive (900px) {
             @include basic-texts (26px, none, 30px 0px 65px 0px);
         } 
+        @include responsive (900px) {
+            @include basic-texts (24px, none, 30px 0px 65px 0px);
+        } 
         @include responsive (700px) {
-            @include basic-texts (24px, none, 30px 0px 55px 0px);
+            @include basic-texts (22px, none, 30px 0px 55px 0px);
         } 
 }
 
@@ -218,7 +218,7 @@ main {
         @include basic-texts (26px, none, 70px);
 
             @include responsive (900px) {
-                @include basic-texts (24px, none, 20px);
+                @include basic-texts (24px, none, 45px 15px);
             } 
     }
     
