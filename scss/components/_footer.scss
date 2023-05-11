@@ -18,7 +18,7 @@
                 /*Flexbox*/
                 display: flex;
                 align-items: center;
-                @include basic-texts (16px, italic, 0px);
+                @include basic-texts (15px, italic, 0px);
 
 
                     .footer-icon {
@@ -40,7 +40,7 @@
                 @include basic-texts (20px, italic, 0px 0px 40px 0px);
 
                     @include responsive (900px) {
-                    @include basic-texts (17px, italic, 0px 0px 30px 0px);
+                    @include basic-texts (15px, italic, 0px 0px 30px 0px);
                 } 
             }
     }

@@ -67,7 +67,7 @@
     background-color: rgb(147, 173, 147);
     border: rgb(75, 107, 75);
     font-size: 17px;
-    padding: 10px;
+    padding: 5px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -75,9 +75,15 @@
     background-color: rgb(147, 173, 147);
     border: rgb(75, 107, 75);
     font-size: 15px;
-    padding: 10px;
+    padding: 5px;
   }
 }
+@media screen and (max-width: 900px) {
+  .first-button {
+    margin: 15px;
+  }
+}
+
 #button-redes {
   background-color: rgb(236, 124, 142);
   border: rgb(75, 107, 75);
@@ -86,18 +92,18 @@
 }
 @media screen and (max-width: 900px) {
   #button-redes {
-    background-color: rgb(147, 173, 147);
+    background-color: rgb(236, 124, 142);
     border: rgb(75, 107, 75);
     font-size: 17px;
-    padding: 10px;
+    padding: 5px;
   }
 }
 @media screen and (max-width: 700px) {
   #button-redes {
-    background-color: rgb(147, 173, 147);
+    background-color: rgb(236, 124, 142);
     border: rgb(75, 107, 75);
     font-size: 15px;
-    padding: 10px;
+    padding: 5px;
   }
 }
 
@@ -253,7 +259,7 @@
   /*Flexbox*/
   display: flex;
   align-items: center;
-  font-size: 16px;
+  font-size: 15px;
   font-style: italic;
   margin: 0px;
 }
@@ -276,7 +282,7 @@
 }
 @media screen and (max-width: 900px) {
   .footer-conteiner .footer-item-phrase {
-    font-size: 17px;
+    font-size: 15px;
     font-style: italic;
     margin: 0px 0px 30px 0px;
   }

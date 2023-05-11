@@ -11,16 +11,22 @@
         @include buttons ($bg-buttons, $border-buttons, 25px, 15px);
 
             @include responsive (900px) {
-                @include buttons ($bg-buttons, $border-buttons, 17px, 10px);
+                @include buttons ($bg-buttons, $border-buttons, 17px, 5px);
             } 
             @include responsive (700px) {
-                @include buttons ($bg-buttons, $border-buttons, 15px, 10px);
+                @include buttons ($bg-buttons, $border-buttons, 15px, 5px);
             } 
     }
     
     .link-conocenos {
         @extend %buttons-text;
     }
+
+    @include responsive (900px) {
+        margin: 15px;
+    } 
+
+
 }
 
 
@@ -34,10 +40,10 @@
     @include buttons ($bg-buttons-redes, $border-buttons, 25px, 15px);
 
         @include responsive (900px) {
-            @include buttons ($bg-buttons, $border-buttons, 17px, 10px);
+            @include buttons ($bg-buttons-redes, $border-buttons, 17px, 5px);
         } 
         @include responsive (700px) {
-            @include buttons ($bg-buttons, $border-buttons, 15px, 10px);
+            @include buttons ($bg-buttons-redes, $border-buttons, 15px, 5px);
         } 
 }
 
