@@ -1,12 +1,13 @@
-
-@import "components/header";
-@import "components/title";
-@import "components/paragraphs";
-@import "components/buttons";
-@import "components/footer";
-@import "components/nosotros";
-@import "components/galeria";
-@import "components/servicios";
-@import "components/contacto";
-
 @import "base/colores";
+@import "base/extends";
+@import "base/mixins";
+
+@import "components/buttons";
+@import "components/contacto";
+@import "components/footer";
+@import "components/galeria";
+@import "components/header";
+@import "components/nosotros";
+@import "components/paragraphs";
+@import "components/servicios";
+@import "components/title";

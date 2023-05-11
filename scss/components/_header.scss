@@ -1,4 +1,6 @@
 @import "../base/colores";
+@import "../base/extends";
+@import "../base/mixins";
 
 
 /*Header CSS*/
@@ -17,15 +19,13 @@ header{
 
         #navbarNav {
             .nav-link.active.ok {
-                color: $textos-claros;
-                font-size: 20px;
+                @include navbar-text ($textos-claros, 20px);
                 text-decoration: underline;
                 font-style: italic;
             }
 
             .nav-link {
-                color: $textos-claros;
-                font-size: 18px;
+                @include navbar-text ($textos-claros, 18px);
             }
         }
     }

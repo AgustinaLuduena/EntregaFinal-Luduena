@@ -1,4 +1,299 @@
 @charset "UTF-8";
+.paragraph-introduction, .section-paragraph .paragraph-introduction {
+  font-size: 35px;
+  margin: 65px;
+  font-family: "Ysabeau", sans-serif;
+  font-style: italic;
+}
+
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .contacto-images .right-side, .contacto-images .center, .contacto-images .left-side, .buttons-servicios, .second-button, .first-button {
+  display: flex;
+  justify-content: center;
+}
+
+.second-conteiner .third-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .first-image-conteiner-nosotros .image, .first-conteiner .logo-image-conteiner-nosotros {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.title {
+  color: rgb(22, 22, 22);
+  background-color: rgb(255, 250, 243);
+  font-family: "Josefin Slab", serif;
+  text-align: center;
+  padding: 60px;
+}
+
+.paragraph-introduction, .section-paragraph .paragraph-introduction {
+  font-size: 35px;
+  margin: 65px;
+  font-family: "Ysabeau", sans-serif;
+  font-style: italic;
+}
+
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .contacto-images .right-side, .contacto-images .center, .contacto-images .left-side, .buttons-servicios, .second-button, .first-button {
+  display: flex;
+  justify-content: center;
+}
+
+.second-conteiner .third-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .first-image-conteiner-nosotros .image, .first-conteiner .logo-image-conteiner-nosotros {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.title {
+  color: rgb(22, 22, 22);
+  background-color: rgb(255, 250, 243);
+  font-family: "Josefin Slab", serif;
+  text-align: center;
+  padding: 60px;
+}
+
+.first-button {
+  margin-bottom: 60px;
+}
+.first-button #button {
+  background-color: rgb(147, 173, 147);
+  border: rgb(75, 107, 75);
+  font-size: 25px;
+  padding: 15px;
+}
+.first-button .link-conocenos {
+  text-decoration: none;
+  color: beige;
+  font-style: italic;
+}
+
+.second-button {
+  margin: 60px 20px;
+}
+.second-button #button {
+  background-color: rgb(147, 173, 147);
+  border: rgb(75, 107, 75);
+  font-size: 25px;
+  padding: 15px;
+}
+.second-button .link-conocenos {
+  text-decoration: none;
+  color: beige;
+  font-style: italic;
+}
+
+#button-redes {
+  background-color: rgb(236, 124, 142);
+  border: rgb(75, 107, 75);
+  font-size: 25px;
+  padding: 15px;
+}
+
+#button:hover {
+  transform: scale(1.1);
+  transition: all 2s;
+}
+
+#button-redes:hover {
+  transform: scale(1.1);
+  transition: all 2s;
+}
+
+.paragraph-introduction, .section-paragraph .paragraph-introduction {
+  font-size: 35px;
+  margin: 65px;
+  font-family: "Ysabeau", sans-serif;
+  font-style: italic;
+}
+
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .contacto-images .right-side, .contacto-images .center, .contacto-images .left-side, .first-button, .second-button, .buttons-servicios {
+  display: flex;
+  justify-content: center;
+}
+
+.second-conteiner .third-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .first-image-conteiner-nosotros .image, .first-conteiner .logo-image-conteiner-nosotros {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.title {
+  color: rgb(22, 22, 22);
+  background-color: rgb(255, 250, 243);
+  font-family: "Josefin Slab", serif;
+  text-align: center;
+  padding: 60px;
+}
+
+/*Page Contacto*/
+.contacto-images {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1;
+}
+.contacto-images .contacto-img {
+  width: 100%;
+}
+.contacto-images .left-side {
+  border-radius: 80px;
+  margin-top: 100px;
+  grid-column: 1;
+  transform: translateX(50px);
+}
+.contacto-images .center {
+  border-radius: 80px;
+  margin-top: 25px;
+  grid-column: 2;
+  position: relative;
+  z-index: 1;
+}
+.contacto-images .right-side {
+  border-radius: 80px;
+  margin-top: 100px;
+  grid-column: 3;
+  transform: translateX(-50px);
+}
+.contacto-images .left-side:hover {
+  transform: translateY(30px);
+  transition: all 3s;
+}
+.contacto-images .center:hover {
+  transform: scale(1.1);
+  transition: all 2s;
+}
+.contacto-images .right-side:hover {
+  transform: translateY(30px);
+  transition: all 3s;
+}
+
+.paragraph-introduction, .section-paragraph .paragraph-introduction {
+  font-size: 35px;
+  margin: 65px;
+  font-family: "Ysabeau", sans-serif;
+  font-style: italic;
+}
+
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .first-button, .second-button, .buttons-servicios, .contacto-images .left-side, .contacto-images .center, .contacto-images .right-side {
+  display: flex;
+  justify-content: center;
+}
+
+.second-conteiner .third-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .first-image-conteiner-nosotros .image, .first-conteiner .logo-image-conteiner-nosotros {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.title {
+  color: rgb(22, 22, 22);
+  background-color: rgb(255, 250, 243);
+  font-family: "Josefin Slab", serif;
+  text-align: center;
+  padding: 60px;
+}
+
+/*Footer*/
+.footer-conteiner {
+  background-color: rgb(220, 220, 220);
+  padding: 30px;
+  /*Grid*/
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 1;
+}
+.footer-conteiner .footer-item-media {
+  /*Grid*/
+  grid-column: 1;
+  /*Flexbox*/
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-style: italic;
+  margin: 0px;
+}
+.footer-conteiner .footer-item-media .footer-icon {
+  text-decoration: none;
+  color: rgb(92, 130, 108);
+  cursor: pointer;
+}
+.footer-conteiner .footer-item-media .media-icon {
+  width: 35px;
+  height: 35px;
+}
+.footer-conteiner .footer-item-phrase {
+  /*Grid*/
+  grid-column: 3;
+  text-align: end;
+  font-size: 20px;
+  font-style: italic;
+  margin: 0px 0px 40px 0px;
+}
+
+.paragraph-introduction, .section-paragraph .paragraph-introduction {
+  font-size: 35px;
+  margin: 65px;
+  font-family: "Ysabeau", sans-serif;
+  font-style: italic;
+}
+
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .first-button, .second-button, .buttons-servicios, .contacto-images .left-side, .contacto-images .center, .contacto-images .right-side {
+  display: flex;
+  justify-content: center;
+}
+
+.second-conteiner .third-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .first-image-conteiner-nosotros .image, .first-conteiner .logo-image-conteiner-nosotros {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.title {
+  color: rgb(22, 22, 22);
+  background-color: rgb(255, 250, 243);
+  font-family: "Josefin Slab", serif;
+  text-align: center;
+  padding: 60px;
+}
+
+/*Page Galería*/
+.galeria-conteiner {
+  width: 100%;
+  margin: 40px auto;
+  /*FlexBox*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.galeria-conteiner #carouselExample-delfina, .galeria-conteiner #carouselExample-compromiso, .galeria-conteiner #carouselExample-gianluca, .galeria-conteiner #carouselExample-eli, .galeria-conteiner #carouselExample-tomas, .galeria-conteiner #carouselExample-bautismo {
+  width: 25%;
+  margin: 10px;
+}
+
+.paragraph-introduction, .section-paragraph .paragraph-introduction {
+  font-size: 35px;
+  margin: 65px;
+  font-family: "Ysabeau", sans-serif;
+  font-style: italic;
+}
+
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .first-button, .second-button, .buttons-servicios, .contacto-images .left-side, .contacto-images .center, .contacto-images .right-side {
+  display: flex;
+  justify-content: center;
+}
+
+.second-conteiner .third-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .first-image-conteiner-nosotros .image, .first-conteiner .logo-image-conteiner-nosotros {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.title {
+  color: rgb(22, 22, 22);
+  background-color: rgb(255, 250, 243);
+  font-family: "Josefin Slab", serif;
+  text-align: center;
+  padding: 60px;
+}
+
 /*Header CSS*/
 header .navbar {
   background-color: rgb(170, 183, 156);
@@ -21,7 +316,24 @@ header .navbar #navbarNav .nav-link {
   font-size: 18px;
 }
 
-/*Section Title*/
+.paragraph-introduction, .section-paragraph .paragraph-introduction {
+  font-size: 35px;
+  margin: 65px;
+  font-family: "Ysabeau", sans-serif;
+  font-style: italic;
+}
+
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .first-button, .second-button, .buttons-servicios, .contacto-images .left-side, .contacto-images .center, .contacto-images .right-side {
+  display: flex;
+  justify-content: center;
+}
+
+.second-conteiner .third-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .first-image-conteiner-nosotros .image, .first-conteiner .logo-image-conteiner-nosotros {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
 .title {
   color: rgb(22, 22, 22);
   background-color: rgb(255, 250, 243);
@@ -29,13 +341,86 @@ header .navbar #navbarNav .nav-link {
   text-align: center;
   padding: 60px;
 }
-.title #title {
-  letter-spacing: 7px;
-  font-style: italic;
-  font-size: 3rem;
+
+/*Page Nosotros*/
+.first-conteiner {
+  /*Grid*/
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
-.title #subtitle {
-  font-size: 4rem;
+.first-conteiner .logo-image-conteiner-nosotros {
+  /*Grid*/
+  grid-column: 1;
+  width: 100%;
+  height: auto;
+}
+.first-conteiner .logo-image-conteiner-nosotros:hover {
+  transform: rotate(-360deg);
+  transition: all 5s;
+}
+.first-conteiner .text-conteiner {
+  /*Grid*/
+  grid-column: 2;
+  /*Flexbox*/
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.second-conteiner {
+  /*Grid*/
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.second-conteiner .first-image-conteiner-nosotros {
+  grid-column: 1;
+  display: flex;
+  align-items: center;
+}
+.second-conteiner .first-image-conteiner-nosotros .image .nosotros-image {
+  width: 80%;
+}
+.second-conteiner .second-image-conteiner-nosotros {
+  grid-column: 2;
+  display: flex;
+  align-items: center;
+}
+.second-conteiner .second-image-conteiner-nosotros .image .nosotros-image {
+  width: 80%;
+}
+.second-conteiner .third-image-conteiner-nosotros {
+  grid-column: 3;
+  display: flex;
+  align-items: center;
+}
+.second-conteiner .third-image-conteiner-nosotros .image .nosotros-image {
+  width: 80%;
+}
+
+.paragraph-introduction, .section-paragraph .paragraph-introduction {
+  font-size: 35px;
+  margin: 65px;
+  font-family: "Ysabeau", sans-serif;
+  font-style: italic;
+}
+
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-button, .second-button, .buttons-servicios, .contacto-images .left-side, .contacto-images .center, .contacto-images .right-side, .first-conteiner .text-conteiner {
+  display: flex;
+  justify-content: center;
+}
+
+.first-conteiner .logo-image-conteiner-nosotros, .second-conteiner .first-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .third-image-conteiner-nosotros .image {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.title {
+  color: rgb(22, 22, 22);
+  background-color: rgb(255, 250, 243);
+  font-family: "Josefin Slab", serif;
+  text-align: center;
+  padding: 60px;
 }
 
 .section-paragraph {
@@ -44,28 +429,17 @@ header .navbar #navbarNav .nav-link {
   text-align: center;
   padding: 45px;
 }
-.section-paragraph .paragraph-introduction {
-  font-size: 35px;
-  margin: 65px;
-  font-family: "Ysabeau", sans-serif;
-  font-style: italic;
-}
 .section-paragraph .paragraph-text {
   font-size: 30px;
+  font-style: none;
   margin: 90px 390px 40px 390px;
   font-family: "Ysabeau", sans-serif;
 }
 
 /*Page Nosotros*/
-.paragraph-introduction {
-  font-size: 35px;
-  margin: 65px;
-  font-family: "Ysabeau", sans-serif;
-  font-style: italic;
-}
-
 .paragraph-nosotros {
   font-size: 24px;
+  font-style: none;
   margin: 20px 80px;
   font-family: "Poppins", sans-serif;
 }
@@ -76,10 +450,11 @@ header .navbar #navbarNav .nav-link {
 
 /*Page Galería*/
 .paragraph-galeria {
+  font-size: 2rem;
+  font-style: none;
   margin: 30px 0px 85px 0px;
   text-align: center;
   font-family: "Josefin Slab", serif;
-  font-size: 2rem;
 }
 
 /*Page Servicios*/
@@ -92,6 +467,7 @@ header .navbar #navbarNav .nav-link {
 .servicios-introduction .uno {
   font-size: 32px;
   font-style: italic;
+  margin: 0px;
   padding: 30px 100px;
 }
 .servicios-introduction .dos {
@@ -101,10 +477,10 @@ header .navbar #navbarNav .nav-link {
 
 .servicios-detalle h3 {
   font-size: 28px;
-  font-family: "Poppins", sans-serif;
-  margin: 30px;
-  padding-top: 50px;
   font-style: italic;
+  margin: 30px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 50px;
   text-align: center;
 }
 .servicios-detalle .cuatro {
@@ -123,12 +499,10 @@ header .navbar #navbarNav .nav-link {
   padding: 20px;
 }
 .servicios-detalle .cinco {
-  font-family: "Poppins", sans-serif;
   font-size: 28px;
-  margin: 20px;
-  display: flex;
-  justify-content: center;
   font-style: italic;
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
 /*Page Contacto*/
@@ -136,205 +510,44 @@ main {
   text-align: center;
 }
 main .contacto {
-  margin: 70px;
   font-size: 35px;
+  font-style: none;
+  margin: 70px;
 }
 main .paragraph-contacto {
   font-size: 32px;
+  font-style: italic;
   margin: 10px 30px;
   font-family: "Poppins", sans-serif;
-  font-style: italic;
 }
 main .second-text-conteiner-contacto {
   margin: 70px 0px;
 }
 
-.first-button {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 60px;
-}
-.first-button #button {
-  background-color: rgb(147, 173, 147);
-  border: rgb(75, 107, 75);
-  font-size: 25px;
-  padding: 15px;
-}
-.first-button .link-conocenos {
-  text-decoration: none;
-  color: beige;
+.section-paragraph .paragraph-introduction, .paragraph-introduction {
+  font-size: 35px;
+  margin: 65px;
+  font-family: "Ysabeau", sans-serif;
   font-style: italic;
 }
 
-.second-button {
-  display: flex;
-  justify-content: center;
-  margin: 60px 20px;
-}
-.second-button #button {
-  background-color: rgb(147, 173, 147);
-  border: rgb(75, 107, 75);
-  font-size: 25px;
-  padding: 15px;
-}
-.second-button .link-conocenos {
-  text-decoration: none;
-  color: beige;
-  font-style: italic;
-}
-
-.buttons-servicios {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .first-button, .second-button, .buttons-servicios, .contacto-images .left-side, .contacto-images .center, .contacto-images .right-side, .first-conteiner .text-conteiner, .servicios-detalle .cinco {
   display: flex;
   justify-content: center;
 }
 
-#button-redes {
-  background-color: rgb(236, 124, 142);
-  border: rgb(75, 107, 75);
-  font-size: 25px;
-  padding: 15px;
-}
-
-#button:hover {
-  transform: scale(1.1);
-  transition: all 2s;
-}
-
-#button-redes:hover {
-  transform: scale(1.1);
-  transition: all 2s;
-}
-
-/*Footer*/
-.footer-conteiner {
-  background-color: rgb(220, 220, 220);
-  padding: 30px;
-  /*Grid*/
-  display: grid;
-  grid-template-columns: 3;
-  grid-template-rows: 1;
-}
-.footer-conteiner .footer-item-media {
-  /*Grid*/
-  grid-column: 1;
-  /*Flexbox*/
+.first-conteiner .logo-image-conteiner-nosotros, .second-conteiner .first-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .third-image-conteiner-nosotros .image {
   display: flex;
-  align-items: center;
-  font-style: italic;
-  font-size: 16px;
-}
-.footer-conteiner .footer-item-media .footer-icon {
-  text-decoration: none;
-  color: rgb(92, 130, 108);
-  cursor: pointer;
-}
-.footer-conteiner .footer-item-media .media-icon {
-  width: 35px;
-  height: 35px;
-}
-.footer-conteiner .footer-item-phrase {
-  /*Grid*/
-  grid-column: 3;
-  text-align: end;
-  font-style: italic;
-  font-size: 20px;
-  margin-bottom: 40px;
-}
-
-/*Page Nosotros*/
-.first-conteiner {
-  /*Grid*/
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-.first-conteiner .logo-image-conteiner-nosotros {
-  /*Grid*/
-  grid-column: 1;
-  width: 100%;
-  height: auto;
+  justify-content: center;
   align-self: center;
-  /*Flexbox*/
-  display: flex;
-  justify-content: center;
 }
-.first-conteiner .logo-image-conteiner-nosotros:hover {
-  transform: rotate(360deg);
-  transition: all 5s;
-}
-.first-conteiner .text-conteiner {
-  /*Grid*/
-  grid-column: 2;
-  /*Flexbox*/
-  display: flex;
-  flex-direction: column;
+
+.title {
+  color: rgb(22, 22, 22);
+  background-color: rgb(255, 250, 243);
+  font-family: "Josefin Slab", serif;
   text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
-.second-conteiner {
-  /*Grid*/
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-.second-conteiner .first-image-conteiner-nosotros {
-  /*Grid*/
-  grid-column: 1;
-  /*FlexBox*/
-  display: flex;
-  align-items: center;
-}
-.second-conteiner .first-image-conteiner-nosotros .image {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-}
-.second-conteiner .first-image-conteiner-nosotros .image .nosotros-image {
-  width: 80%;
-}
-.second-conteiner .second-image-conteiner-nosotros {
-  /*Grid*/
-  grid-column: 2;
-  /*FlexBox*/
-  display: flex;
-  align-items: center;
-}
-.second-conteiner .second-image-conteiner-nosotros .image {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-}
-.second-conteiner .second-image-conteiner-nosotros .image .nosotros-image {
-  width: 80%;
-}
-.second-conteiner .third-image-conteiner-nosotros {
-  /*Grid*/
-  grid-column: 3;
-  /*FlexBox*/
-  display: flex;
-  align-items: center;
-}
-.second-conteiner .third-image-conteiner-nosotros .image {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-}
-.second-conteiner .third-image-conteiner-nosotros .image .nosotros-image {
-  width: 80%;
-}
-
-/*Page Galería*/
-.galeria-conteiner {
-  width: 100%;
-  margin: 40px auto;
-  /*FlexBox*/
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.galeria-conteiner #carouselExample-delfina, .galeria-conteiner #carouselExample-compromiso, .galeria-conteiner #carouselExample-gianluca, .galeria-conteiner #carouselExample-eli, .galeria-conteiner #carouselExample-tomas, .galeria-conteiner #carouselExample-bautismo {
-  width: 25%;
-  margin: 10px;
+  padding: 60px;
 }
 
 /*Page Servicios*/
@@ -354,22 +567,16 @@ main .second-text-conteiner-contacto {
 }
 .seis .servicios-1 {
   grid-column: 1;
-  display: flex;
-  justify-content: center;
   padding: 5px;
   margin-top: 15px;
 }
 .seis .servicios-2 {
   grid-column: 3;
-  display: flex;
-  justify-content: center;
   padding: 5px;
   margin-top: 15px;
 }
 .seis .servicios-3 {
   grid-column: 2;
-  display: flex;
-  justify-content: center;
   padding: 5px;
 }
 .seis .servicios-1:hover {
@@ -385,51 +592,40 @@ main .second-text-conteiner-contacto {
   transition: all 3s;
 }
 
-/*Page Contacto*/
-.contacto-images {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1;
+.section-paragraph .paragraph-introduction, .paragraph-introduction {
+  font-size: 35px;
+  margin: 65px;
+  font-family: "Ysabeau", sans-serif;
+  font-style: italic;
 }
-.contacto-images .contacto-img {
-  width: 100%;
-}
-.contacto-images .left-side {
-  border-radius: 80px;
-  margin-top: 100px;
-  grid-column: 1;
+
+.first-button, .second-button, .buttons-servicios, .contacto-images .left-side, .contacto-images .center, .contacto-images .right-side, .first-conteiner .text-conteiner, .servicios-detalle .cinco, .seis .servicios-1, .seis .servicios-2, .seis .servicios-3 {
   display: flex;
   justify-content: center;
-  transform: translateX(50px);
 }
-.contacto-images .center {
-  border-radius: 80px;
-  margin-top: 25px;
-  grid-column: 2;
+
+.first-conteiner .logo-image-conteiner-nosotros, .second-conteiner .first-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .third-image-conteiner-nosotros .image {
   display: flex;
   justify-content: center;
-  position: relative;
-  z-index: 1;
+  align-self: center;
 }
-.contacto-images .right-side {
-  border-radius: 80px;
-  margin-top: 100px;
-  grid-column: 3;
-  display: flex;
-  justify-content: center;
-  transform: translateX(-50px);
+
+.title {
+  color: rgb(22, 22, 22);
+  background-color: rgb(255, 250, 243);
+  font-family: "Josefin Slab", serif;
+  text-align: center;
+  padding: 60px;
 }
-.contacto-images .left-side:hover {
-  transform: translateY(30px);
-  transition: all 3s;
+
+/*Section Title*/
+.title #title {
+  letter-spacing: 7px;
+  font-style: italic;
+  font-size: 3rem;
 }
-.contacto-images .center:hover {
-  transform: scale(1.1);
-  transition: all 2s;
-}
-.contacto-images .right-side:hover {
-  transform: translateY(30px);
-  transition: all 3s;
+.title #subtitle {
+  font-size: 4rem;
 }
 
 /*# sourceMappingURL=style.css.map */

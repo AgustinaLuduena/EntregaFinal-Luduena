@@ -1,0 +1,29 @@
+@mixin basic-texts ( $size, $style, $margin) {
+    font-size: $size;
+    font-style: $style;
+    margin: $margin;
+}
+
+
+@mixin animations ($transform, $transition) {
+    transform: $transform;
+    transition: $transition;
+}
+
+@mixin buttons ($bg-color, $border, $font-size, $padding) {
+    background-color: $bg-color;
+    border: $border;
+    font-size: $font-size;
+    padding: $padding;
+}
+
+@mixin navbar-text ($color, $size) {
+    color: $color;
+    font-size: $size;
+}
+
+@mixin img-nosotros ($column, $display, $align) {
+    grid-column: $column;
+    display: $display;
+    align-items: $align;
+}

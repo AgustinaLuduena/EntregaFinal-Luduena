@@ -1,15 +1,14 @@
 @import "../base/colores";
+@import "../base/extends";
+@import "../base/mixins";
+
 
 .first-button {
-    display: flex;
-    justify-content: center;
+    @extend %center;
     margin-bottom: 60px;
 
     #button {
-        background-color: $bg-buttons;
-        border: $border-buttons;
-        font-size: 25px;
-        padding: 15px;
+        @include buttons ($bg-buttons, $border-buttons, 25px, 15px);
     }
     
     .link-conocenos {
@@ -21,15 +20,11 @@
 
 
 .second-button {
-    display: flex;
-    justify-content: center;
+    @extend %center;
     margin: 60px 20px;
 
     #button {
-        background-color: $bg-buttons;
-        border: $border-buttons;
-        font-size: 25px;
-        padding: 15px;
+        @include buttons ($bg-buttons, $border-buttons, 25px, 15px);
     }
 
     .link-conocenos {
@@ -41,24 +36,18 @@
 
 
 .buttons-servicios {
-    display: flex;
-    justify-content: center;
+    @extend %center;
 }
 
 
 #button-redes {
-    background-color: $bg-buttons-redes;
-    border: $border-buttons;
-    font-size: 25px;
-    padding: 15px;
+    @include buttons ($bg-buttons-redes, $border-buttons, 25px, 15px);
 }
 
 #button:hover {
-    transform: scale(1.1);
-    transition: all 2s;
+    @include animations (scale(1.1), all 2s);
 }
 
 #button-redes:hover {
-    transform: scale(1.1);
-    transition: all 2s;
+    @include animations (scale(1.1), all 2s);
 }

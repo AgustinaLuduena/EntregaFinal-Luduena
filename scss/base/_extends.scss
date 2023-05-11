@@ -1,0 +1,28 @@
+%introduction {
+        font-size: 35px;
+        margin: 65px;
+        font-family: 'Ysabeau', sans-serif;
+        font-style: italic;
+}
+
+
+%center {
+        display: flex;
+        justify-content: center;
+}
+
+%img-nosotros {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+}
+
+
+%titles {
+        color: $textos-oscuros;
+        background-color: $bg-title;
+        font-family: 'Josefin Slab', serif;
+        text-align: center;
+        padding: 60px;
+}
+

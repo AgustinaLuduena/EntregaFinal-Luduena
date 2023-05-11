@@ -1,3 +1,7 @@
+@import "../base/colores";
+@import "../base/extends";
+@import "../base/mixins";
+
 /*Page Contacto*/
 
 .contacto-images {
@@ -14,8 +18,7 @@
         border-radius: 80px;
         margin-top: 100px;
         grid-column: 1;
-        display: flex;
-        justify-content: center;
+        @extend %center;
         transform: translateX(50px);
     }
 
@@ -23,8 +26,7 @@
         border-radius: 80px;
         margin-top: 25px;
         grid-column: 2;
-        display: flex;
-        justify-content: center;
+        @extend %center;
         position: relative;
         z-index: 1;
     }
@@ -33,24 +35,20 @@
         border-radius: 80px;
         margin-top: 100px;
         grid-column: 3;
-        display: flex;
-        justify-content: center;
+        @extend %center;
         transform: translateX(-50px);
     }
 
     .left-side:hover {
-        transform: translateY(30px);
-        transition: all 3s;
+        @include animations ( translateY(30px), all 3s);
     }
 
     .center:hover {
-        transform: scale(1.1);
-        transition: all 2s;
+        @include animations ( scale(1.1), all 2s);
     }
 
     .right-side:hover {
-        transform: translateY(30px);
-        transition: all 3s;
+        @include animations ( translateY(30px), all 3s);
     }
     
 }

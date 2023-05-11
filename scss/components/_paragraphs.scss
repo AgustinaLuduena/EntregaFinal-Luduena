@@ -1,5 +1,6 @@
 @import "../base/colores";
-
+@import "../base/extends";
+@import "../base/mixins";
 
 .section-paragraph {
     color: $textos-oscuros;
@@ -8,15 +9,11 @@
     padding: 45px;
 
     .paragraph-introduction {
-        font-size: 35px;
-        margin: 65px;
-        font-family: 'Ysabeau', sans-serif;
-        font-style: italic;
+        @extend %introduction;
     }
     
     .paragraph-text {
-        font-size: 30px;
-        margin: 90px 390px 40px 390px;
+        @include basic-texts (30px, none, 90px 390px 40px 390px);
         font-family: 'Ysabeau', sans-serif;
     }
     
@@ -26,15 +23,11 @@
 /*Page Nosotros*/
 
 .paragraph-introduction {
-    font-size: 35px;
-    margin: 65px;
-    font-family: 'Ysabeau', sans-serif;
-    font-style: italic;
+    @extend %introduction;
 }
 
 .paragraph-nosotros {
-    font-size: 24px;
-    margin: 20px 80px;
+    @include basic-texts (24px, none, 20px 80px);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -46,10 +39,9 @@
 /*Page Galería*/
 
 .paragraph-galeria {
-    margin: 30px 0px 85px 0px;
+    @include basic-texts (2rem, none, 30px 0px 85px 0px);
     text-align: center;
     font-family: 'Josefin Slab', serif;
-    font-size: 2rem;
 }
 
 
@@ -63,8 +55,7 @@
     margin: 40px;
 
         .uno {
-            font-size: 32px;
-            font-style: italic;
+            @include basic-texts (32px, italic, 0px);
             padding: 30px 100px;
         }
 
@@ -77,11 +68,9 @@
         
 .servicios-detalle {
     h3 {
-        font-size: 28px;
+        @include basic-texts (28px, italic, 30px);
         font-family: 'Poppins', sans-serif;
-        margin: 30px;
         padding-top: 50px;
-        font-style: italic;
         text-align: center;
     }
     
@@ -103,12 +92,9 @@
     }
     
     .cinco {
+        @include basic-texts (28px, italic, 20px);
         font-family: 'Poppins', sans-serif;
-        font-size: 28px;
-        margin: 20px;
-        display: flex;
-        justify-content: center;
-        font-style: italic;
+        @extend %center;
     }
 }
 
@@ -119,16 +105,12 @@ main {
     text-align: center;
 
     .contacto {
-        margin: 70px;
-        font-size: 35px;
-
+        @include basic-texts (35px, none, 70px);
     }
     
     .paragraph-contacto {
-        font-size: 32px;
-        margin: 10px 30px;
+        @include basic-texts (32px, italic, 10px 30px);
         font-family: 'Poppins', sans-serif;
-        font-style: italic;
     }
 
     .second-text-conteiner-contacto {

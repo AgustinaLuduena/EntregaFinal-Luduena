@@ -1,4 +1,6 @@
 @import "../base/colores";
+@import "../base/extends";
+@import "../base/mixins";
 
 /*Footer*/
 
@@ -16,8 +18,8 @@
                 /*Flexbox*/
                 display: flex;
                 align-items: center;
-                font-style: italic;
-                font-size: 16px;
+                @include basic-texts (16px, italic, 0px);
+
 
                     .footer-icon {
                         text-decoration: none;
@@ -35,8 +37,6 @@
                 /*Grid*/
                 grid-column: 3;
                 text-align: end;
-                font-style: italic;
-                font-size: 20px;
-                margin-bottom: 40px;
+                @include basic-texts (20px, italic, 0px 0px 40px 0px);
             }
     }
