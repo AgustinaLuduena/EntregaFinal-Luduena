@@ -121,35 +121,35 @@
 
         .uno {
             @include basic-texts (32px, italic, 0px);
-            padding: 30px 100px;
+            padding: 25px 80px;
 
                 @include responsive (900px) {
-                    @include basic-texts (28px, italic, 0px);
-                    padding: 15px 30px;
-                } 
-                @include responsive (700px) {
                     @include basic-texts (26px, italic, 0px);
                     padding: 15px 20px;
+                } 
+                @include responsive (700px) {
+                    @include basic-texts (24px, italic, 0px);
+                    padding: 12px 10px;
                 } 
         }
 
         .dos {
             font-size: 24px;
-            padding: 30px 100px;
+            padding: 25px 80px;
 
                 @include responsive (900px) {
-                    font-size: 24px;
-                    padding: 15px 30px;
-                } 
-                @include responsive (700px) {
                     font-size: 22px;
                     padding: 15px 20px;
+                } 
+                @include responsive (700px) {
+                    font-size: 20px;
+                    padding: 12px 10px;
                 } 
         }
 
 
             @include responsive (900px) {
-                margin: 20px;
+                margin: 15px;
             } 
 
 }
@@ -182,8 +182,8 @@
             padding: 20px;
 
                 @include responsive (900px) {
-                    font-size: 22px;
-                    padding: 15px;
+                    font-size: 18px;
+                    padding: 10px;
                 } 
         }
     }
