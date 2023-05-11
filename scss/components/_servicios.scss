@@ -13,21 +13,42 @@
 }
 
 .seis {
-    @include grid (grid, 1fr 2fr 1fr, 1);
+    @include grid (grid, 1fr 2fr 1fr);
 
     .servicios-img {
         width: 100%;
         align-items: center;
+
+        @include responsive (1500px) {
+            width: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } 
+        @include responsive (900px) {
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } 
     }
 
     .servicios-1 {
         @include img-servicios (1, 5px, 15px);
         @extend %center;
+
+        @include responsive (1500px) {
+            @include img-servicios (3,5px,0px)
+        } 
     }
 
     .servicios-2 {
         @include img-servicios (3, 5px, 15px);
         @extend %center;
+
+        @include responsive (1500px) {
+            @include img-servicios (3,5px,0px)
+        } 
     }
 
     .servicios-3 {
@@ -46,4 +67,11 @@
     .servicios-3:hover {
         @include animations ( scale(1.3), all 3s);
     }
+
+
+        @include responsive (1500px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
 }

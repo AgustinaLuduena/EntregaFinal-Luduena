@@ -6,16 +6,33 @@
 
 .first-conteiner {
     /*Grid*/
-    @include grid (grid, 1fr 2fr, 1);
+    @include grid (grid, 1fr 2fr);
 
     .logo-image-conteiner-nosotros {
         /*Grid*/
         grid-column: 1;
-        width: 100%;
-        height: auto;
         @extend %img-nosotros;
-        
+
+        .nosotros-image-logo {
+            width: 75%;
+
+            @include responsive (1500px) {
+                width: 60%;
+                margin-top: 20px;
+            }
+            @include responsive (1300px) {
+                width: 50%;
+                margin-top: 20px;
+            }
+            @include responsive (900px) {
+                width: 40%;
+                margin-top: 20px;
+            }
+        }
+
+
     }
+    
 
     .logo-image-conteiner-nosotros:hover {
         @include animations (rotate(-360deg), all 5s);

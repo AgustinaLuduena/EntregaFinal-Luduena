@@ -9,6 +9,13 @@
 
     #button {
         @include buttons ($bg-buttons, $border-buttons, 25px, 15px);
+
+            @include responsive (900px) {
+                @include buttons ($bg-buttons, $border-buttons, 20px, 12px);
+            } 
+            @include responsive (700px) {
+                @include buttons ($bg-buttons, $border-buttons, 18px, 12px);
+            } 
     }
     
     .link-conocenos {
@@ -38,6 +45,13 @@
 
 #button-redes {
     @include buttons ($bg-buttons-redes, $border-buttons, 25px, 15px);
+
+        @include responsive (900px) {
+            @include buttons ($bg-buttons-redes, $border-buttons, 20px, 12px);
+        } 
+        @include responsive (700px) {
+            @include buttons ($bg-buttons-redes, $border-buttons, 18px, 12px);
+        } 
 }
 
 #button:hover {

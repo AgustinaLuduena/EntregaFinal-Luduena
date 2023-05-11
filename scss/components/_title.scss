@@ -12,9 +12,34 @@
         letter-spacing: 7px;
         font-style: italic;
         font-size: 3rem;
+
+
+        @include responsive (1500px) {
+            font-size: 36px;
+        } 
+
+        @include responsive (1300px) {
+            font-size: 32px;
+        } 
+
+        @include responsive (900px) {
+            font-size: 28px;
+        } 
     }
 
     #subtitle {
         font-size: 4rem;
+
+        @include responsive (1500px) {
+            font-size: 52px;
+        } 
+
+        @include responsive (1300px) {
+            font-size: 45px;
+        } 
+
+        @include responsive (900px) {
+            font-size: 38px;
+        } 
     }
 }

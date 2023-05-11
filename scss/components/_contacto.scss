@@ -5,7 +5,9 @@
 /*Page Contacto*/
 
 .contacto-images {
-    @include grid (grid, 1fr 2fr 1fr, 1);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
 
     .contacto-img{
         width: 100%;
@@ -17,6 +19,11 @@
         grid-column: 1;
         @extend %center;
         transform: translateX(50px);
+
+            @include responsive (950px) {
+                border-radius: 50px;
+                margin-top: 60px;
+            } 
     }
 
     .center {
@@ -26,6 +33,11 @@
         @extend %center;
         position: relative;
         z-index: 1;
+
+            @include responsive (900px) {
+                border-radius: 50px;
+                margin: 20px 0px;
+            } 
     }
 
     .right-side {
@@ -34,6 +46,12 @@
         grid-column: 3;
         @extend %center;
         transform: translateX(-50px);
+       
+            @include responsive (950px) {
+                border-radius: 50px;
+                margin-top: 60px;
+            } 
+
     }
 
     .left-side:hover {
@@ -48,6 +66,26 @@
         @include animations ( translateY(30px), all 3s);
     }
     
+
+
+    .center.contacto-img {
+        @include responsive (800px) {
+            transform: scale(1.4);
+        } 
+    }
+
+
+    .left-side.contacto-img {
+        @include responsive (800px) {
+            display: none;
+        } 
+    }
+
+    .right-side.contacto-img {
+        @include responsive (800px) {
+            display: none;
+        } 
+    }
 }
     
 

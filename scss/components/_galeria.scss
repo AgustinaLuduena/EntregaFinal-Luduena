@@ -15,7 +15,21 @@
         #carouselExample-delfina, #carouselExample-compromiso, #carouselExample-gianluca, #carouselExample-eli, #carouselExample-tomas, #carouselExample-bautismo {
             width: 25%;
             margin: 10px;
+
+            @include responsive (900px) {
+                width: 70%;
+            } 
         }
+
+        @include responsive (900px) {
+            margin: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        } 
+
 }
 
 
