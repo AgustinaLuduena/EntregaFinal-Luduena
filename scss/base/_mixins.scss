@@ -1,3 +1,12 @@
+/*Responsive*/
+
+@mixin responsive ($medida :480px) {
+    @media screen and (max-width: $medida) {
+        @content;        
+    }
+}
+
+
 @mixin basic-texts ( $size, $style, $margin) {
     font-size: $size;
     font-style: $style;
