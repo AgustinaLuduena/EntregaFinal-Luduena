@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/*REVISAR EXT INTRODUCTION!!!!!!!*/
 .seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .contacto-images .right-side, .contacto-images .center, .contacto-images .left-side, .buttons-servicios, .first-button {
   display: flex;
   justify-content: center;
@@ -26,7 +25,6 @@
 }
 
 /*Responsive*/
-/*REVISAR EXT INTRODUCTION!!!!!!!*/
 .seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .contacto-images .right-side, .contacto-images .center, .contacto-images .left-side, .buttons-servicios, .first-button {
   display: flex;
   justify-content: center;
@@ -117,7 +115,6 @@
   transition: all 2s;
 }
 
-/*REVISAR EXT INTRODUCTION!!!!!!!*/
 .seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .contacto-images .right-side, .contacto-images .center, .contacto-images .left-side, .first-button, .buttons-servicios {
   display: flex;
   justify-content: center;
@@ -218,7 +215,6 @@
   }
 }
 
-/*REVISAR EXT INTRODUCTION!!!!!!!*/
 .seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .first-button, .buttons-servicios, .contacto-images .left-side, .contacto-images .center, .contacto-images .right-side {
   display: flex;
   justify-content: center;
@@ -288,7 +284,6 @@
   }
 }
 
-/*REVISAR EXT INTRODUCTION!!!!!!!*/
 .seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .first-button, .buttons-servicios, .contacto-images .left-side, .contacto-images .center, .contacto-images .right-side {
   display: flex;
   justify-content: center;
@@ -344,7 +339,6 @@
   }
 }
 
-/*REVISAR EXT INTRODUCTION!!!!!!!*/
 .seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .first-button, .buttons-servicios, .contacto-images .left-side, .contacto-images .center, .contacto-images .right-side {
   display: flex;
   justify-content: center;
@@ -393,7 +387,6 @@ header .navbar #navbarNav .nav-link {
   font-size: 15px;
 }
 
-/*REVISAR EXT INTRODUCTION!!!!!!!*/
 .seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .first-button, .buttons-servicios, .contacto-images .left-side, .contacto-images .center, .contacto-images .right-side {
   display: flex;
   justify-content: center;
@@ -515,7 +508,6 @@ header .navbar #navbarNav .nav-link {
   width: 80%;
 }
 
-/*REVISAR EXT INTRODUCTION!!!!!!!*/
 .seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-button, .buttons-servicios, .contacto-images .left-side, .contacto-images .center, .contacto-images .right-side, .first-conteiner .text-conteiner {
   display: flex;
   justify-content: center;
@@ -876,7 +868,6 @@ main .second-text-conteiner-contacto {
   margin: 70px 0px;
 }
 
-/*REVISAR EXT INTRODUCTION!!!!!!!*/
 .seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .first-button, .buttons-servicios, .contacto-images .left-side, .contacto-images .center, .contacto-images .right-side, .first-conteiner .text-conteiner, .servicios-detalle .cinco {
   display: flex;
   justify-content: center;
@@ -990,8 +981,17 @@ main .second-text-conteiner-contacto {
   transform: scale(1.3);
   transition: all 3s;
 }
+@media screen and (max-width: 900px) {
+  .seis .servicios-1.servicios-img {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .seis .servicios-2.servicios-img {
+    display: none;
+  }
+}
 
-/*REVISAR EXT INTRODUCTION!!!!!!!*/
 .first-button, .buttons-servicios, .contacto-images .left-side, .contacto-images .center, .contacto-images .right-side, .first-conteiner .text-conteiner, .servicios-detalle .cinco, .seis .servicios-1, .seis .servicios-2, .seis .servicios-3 {
   display: flex;
   justify-content: center;
