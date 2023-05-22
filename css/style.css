@@ -201,7 +201,12 @@
 }
 @media screen and (max-width: 800px) {
   .contacto-images .center.contacto-img {
-    transform: scale(1.8);
+    transform: scale(1.5);
+  }
+}
+@media screen and (max-width: 600px) {
+  .contacto-images .center.contacto-img {
+    transform: scale(1.7);
   }
 }
 @media screen and (max-width: 800px) {
@@ -857,7 +862,7 @@ main {
   text-align: center;
 }
 main .contacto {
-  font-size: 26px;
+  font-size: 32px;
   font-style: none;
   margin: 70px;
 }
