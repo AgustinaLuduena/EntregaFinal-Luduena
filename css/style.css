@@ -322,11 +322,19 @@
 .galeria-conteiner #carouselExample-delfina, .galeria-conteiner #carouselExample-compromiso, .galeria-conteiner #carouselExample-gianluca, .galeria-conteiner #carouselExample-eli, .galeria-conteiner #carouselExample-tomas, .galeria-conteiner #carouselExample-bautismo {
   width: 25%;
   margin: 10px;
+  border-radius: 10px;
 }
 @media screen and (max-width: 900px) {
   .galeria-conteiner #carouselExample-delfina, .galeria-conteiner #carouselExample-compromiso, .galeria-conteiner #carouselExample-gianluca, .galeria-conteiner #carouselExample-eli, .galeria-conteiner #carouselExample-tomas, .galeria-conteiner #carouselExample-bautismo {
     width: 70%;
   }
+}
+.galeria-conteiner #carouselExample-delfina:hover, .galeria-conteiner #carouselExample-compromiso:hover, .galeria-conteiner #carouselExample-gianluca:hover, .galeria-conteiner #carouselExample-eli:hover, .galeria-conteiner #carouselExample-tomas:hover, .galeria-conteiner #carouselExample-bautismo:hover {
+  transform: scale(1.2);
+  transition: all 3s;
+}
+.galeria-conteiner .w-100 {
+  border-radius: 25px;
 }
 @media screen and (max-width: 900px) {
   .galeria-conteiner {
@@ -432,42 +440,49 @@ header .navbar #navbarNav .nav-link {
 .first-conteiner .logo-image-conteiner-nosotros {
   /*Grid*/
   grid-column: 1;
-  display: flex;
-  justify-content: center;
-}
-.first-conteiner .logo-image-conteiner-nosotros .nosotros-image-logo {
+  align-self: center;
+  margin: 45px;
   width: 75%;
 }
 @media screen and (max-width: 1500px) {
   .first-conteiner .logo-image-conteiner-nosotros .nosotros-image-logo {
-    width: 60%;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+    width: 40%;
+    margin-top: 30px;
     align-self: center;
   }
 }
 @media screen and (max-width: 1300px) {
   .first-conteiner .logo-image-conteiner-nosotros .nosotros-image-logo {
     width: 50%;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+    margin-top: 30px;
     align-self: center;
   }
 }
 @media screen and (max-width: 900px) {
   .first-conteiner .logo-image-conteiner-nosotros .nosotros-image-logo {
-    width: 40%;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+    width: 50%;
+    margin-top: 30px;
     align-self: center;
   }
 }
+@media screen and (max-width: 1500px) {
+  .first-conteiner .logo-image-conteiner-nosotros {
+    margin: 30px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .first-conteiner .logo-image-conteiner-nosotros {
+    margin: 25px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .first-conteiner .logo-image-conteiner-nosotros {
+    margin: 20px;
+  }
+}
 .first-conteiner .logo-image-conteiner-nosotros:hover {
-  transform: scale(1.2);
-  transition: all 3s;
+  transform: rotate(360deg);
+  transition: all 5s;
 }
 .first-conteiner .text-conteiner {
   /*Grid*/
@@ -490,6 +505,7 @@ header .navbar #navbarNav .nav-link {
 }
 .second-conteiner .first-image-conteiner-nosotros .image .nosotros-image {
   width: 80%;
+  border-radius: 10px;
 }
 .second-conteiner .second-image-conteiner-nosotros {
   grid-column: 2;
@@ -498,6 +514,7 @@ header .navbar #navbarNav .nav-link {
 }
 .second-conteiner .second-image-conteiner-nosotros .image .nosotros-image {
   width: 80%;
+  border-radius: 10px;
 }
 .second-conteiner .third-image-conteiner-nosotros {
   grid-column: 3;
@@ -506,6 +523,7 @@ header .navbar #navbarNav .nav-link {
 }
 .second-conteiner .third-image-conteiner-nosotros .image .nosotros-image {
   width: 80%;
+  border-radius: 10px;
 }
 
 .seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-button, .buttons-servicios, .contacto-images .left-side, .contacto-images .center, .contacto-images .right-side, .first-conteiner .text-conteiner {
