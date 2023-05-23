@@ -145,12 +145,10 @@
 .main-conteiner-contacto {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: repeat(3, 1fr);
   /*Media Query*/
 }
 .main-conteiner-contacto .contacto-images {
   grid-column: 1;
-  grid-row: 1/3;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -173,7 +171,6 @@
 }
 .main-conteiner-contacto .text-conteiner-contacto {
   grid-column: 2;
-  grid-row: 1/3;
   flex-direction: column;
   text-align: center;
   align-items: center;
@@ -190,7 +187,6 @@
 }
 .main-conteiner-contacto .contacto-images-2 {
   grid-column: 3;
-  grid-row: 1/3;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -205,8 +201,8 @@
   .main-conteiner-contacto .contacto-images-2 .contacto-img {
     width: 100%;
     border-radius: 30px;
-    padding: 0px;
-    margin: 10px;
+    padding: 8px;
+    margin: 0px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -221,7 +217,6 @@
   .main-conteiner-contacto {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: auto;
   }
 }
 
@@ -868,13 +863,13 @@ main {
   text-align: center;
 }
 main .contacto {
-  font-size: 42px;
+  font-size: 36px;
   font-style: none;
-  margin: 70px;
+  margin: 70px 75px;
 }
 @media screen and (max-width: 1400px) {
   main .contacto {
-    font-size: 36px;
+    font-size: 30px;
     font-style: none;
     margin: 20px;
   }
@@ -894,14 +889,14 @@ main .contacto {
   }
 }
 main .paragraph-contacto {
-  font-size: 34px;
+  font-size: 30px;
   font-style: italic;
-  margin: 10px 30px;
+  margin: 10px 40px;
   font-family: "Poppins", sans-serif;
 }
 @media screen and (max-width: 1400px) {
   main .paragraph-contacto {
-    font-size: 28px;
+    font-size: 26px;
     font-style: none;
     margin: 20px;
   }
