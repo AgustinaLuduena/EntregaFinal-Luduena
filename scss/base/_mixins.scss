@@ -6,6 +6,12 @@
     }
 }
 
+@mixin responsive-min ($medida :480px) {
+    @media screen and (min-width: $medida) {
+        @content;        
+    }
+}
+
 
 @mixin basic-texts ( $size, $style, $margin) {
     font-size: $size;

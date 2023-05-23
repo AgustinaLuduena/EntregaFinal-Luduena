@@ -4,12 +4,6 @@
   justify-content: center;
 }
 
-.second-conteiner .third-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .first-image-conteiner-nosotros .image {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-}
-
 .title {
   color: rgb(22, 22, 22);
   background-color: rgb(255, 250, 243);
@@ -28,12 +22,6 @@
 .seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .main-conteiner-contacto .text-conteiner-contacto, .buttons-servicios, .first-button {
   display: flex;
   justify-content: center;
-}
-
-.second-conteiner .third-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .first-image-conteiner-nosotros .image {
-  display: flex;
-  justify-content: center;
-  align-self: center;
 }
 
 .title {
@@ -118,12 +106,6 @@
 .seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .main-conteiner-contacto .text-conteiner-contacto, .first-button, .buttons-servicios {
   display: flex;
   justify-content: center;
-}
-
-.second-conteiner .third-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .first-image-conteiner-nosotros .image {
-  display: flex;
-  justify-content: center;
-  align-self: center;
 }
 
 .title {
@@ -225,12 +207,6 @@
   justify-content: center;
 }
 
-.second-conteiner .third-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .first-image-conteiner-nosotros .image {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-}
-
 .title {
   color: rgb(22, 22, 22);
   background-color: rgb(255, 250, 243);
@@ -294,12 +270,6 @@
   justify-content: center;
 }
 
-.second-conteiner .third-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .first-image-conteiner-nosotros .image {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-}
-
 .title {
   color: rgb(22, 22, 22);
   background-color: rgb(255, 250, 243);
@@ -357,12 +327,6 @@
   justify-content: center;
 }
 
-.second-conteiner .third-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .first-image-conteiner-nosotros .image {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-}
-
 .title {
   color: rgb(22, 22, 22);
   background-color: rgb(255, 250, 243);
@@ -405,12 +369,6 @@ header .navbar #navbarNav .nav-link {
   justify-content: center;
 }
 
-.second-conteiner .third-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .first-image-conteiner-nosotros .image {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-}
-
 .title {
   color: rgb(22, 22, 22);
   background-color: rgb(255, 250, 243);
@@ -448,6 +406,11 @@ header .navbar #navbarNav .nav-link {
   align-self: center;
   margin: 45px;
   width: 75%;
+}
+.first-conteiner .logo-image-conteiner-nosotros .nosotros-image-logo {
+  width: 50%;
+  margin: 20px 5px;
+  align-self: center;
 }
 @media screen and (max-width: 1500px) {
   .first-conteiner .logo-image-conteiner-nosotros .nosotros-image-logo {
@@ -499,47 +462,86 @@ header .navbar #navbarNav .nav-link {
 }
 
 .second-conteiner {
-  /*Grid*/
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: none;
+  /*
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 50px 0px;
+
+      .first-image-conteiner-nosotros {
+          @include img-nosotros (1, flex, center);
+
+          .image {
+              @extend %img-nosotros;
+
+              .nosotros-image {
+                  width: 65%;
+                  border-radius: 10px;
+              }
+          }
+
+      }
+
+      .second-image-conteiner-nosotros {
+          @include img-nosotros (2, flex, center);
+
+          .image {
+              @extend %img-nosotros;
+
+              .nosotros-image {
+                  width: 65%;
+                  border-radius: 10px;
+              }
+          }
+      }
+
+      .third-image-conteiner-nosotros {
+          @include img-nosotros (3, flex, center);
+
+          .image {
+              @extend %img-nosotros;
+
+              .nosotros-image {
+                  width: 65%;
+                  border-radius: 10px;
+              }
+          }
+      }
+
+  */
 }
-.second-conteiner .first-image-conteiner-nosotros {
-  grid-column: 1;
+
+.instagram-post-conteiner {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
-.second-conteiner .first-image-conteiner-nosotros .image .nosotros-image {
-  width: 80%;
-  border-radius: 10px;
+.instagram-post-conteiner .individual-ig-post {
+  width: 70%;
+  padding: 10px;
 }
-.second-conteiner .second-image-conteiner-nosotros {
-  grid-column: 2;
+@media screen and (max-width: 1000px) {
+  .instagram-post-conteiner {
+    display: none;
+  }
+}
+
+#carouselExample-instagram .carousel-item.active {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  padding: 0px 100px;
 }
-.second-conteiner .second-image-conteiner-nosotros .image .nosotros-image {
-  width: 80%;
-  border-radius: 10px;
+#carouselExample-instagram .carousel-control-prev-icon, #carouselExample-instagram .carousel-control-next-icon {
+  filter: invert(108%);
 }
-.second-conteiner .third-image-conteiner-nosotros {
-  grid-column: 3;
-  display: flex;
-  align-items: center;
-}
-.second-conteiner .third-image-conteiner-nosotros .image .nosotros-image {
-  width: 80%;
-  border-radius: 10px;
+@media screen and (min-width: 1000px) {
+  #carouselExample-instagram {
+    display: none;
+  }
 }
 
 .seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-button, .buttons-servicios, .main-conteiner-contacto .text-conteiner-contacto, .first-conteiner .text-conteiner {
   display: flex;
   justify-content: center;
-}
-
-.second-conteiner .first-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .third-image-conteiner-nosotros .image {
-  display: flex;
-  justify-content: center;
-  align-self: center;
 }
 
 .title {
@@ -922,12 +924,6 @@ main .paragraph-contacto {
   justify-content: center;
 }
 
-.second-conteiner .first-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .third-image-conteiner-nosotros .image {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-}
-
 .title {
   color: rgb(22, 22, 22);
   background-color: rgb(255, 250, 243);
@@ -1047,12 +1043,6 @@ main .paragraph-contacto {
 .first-button, .buttons-servicios, .main-conteiner-contacto .text-conteiner-contacto, .first-conteiner .text-conteiner, .servicios-detalle .cinco, .seis .servicios-1, .seis .servicios-2, .seis .servicios-3 {
   display: flex;
   justify-content: center;
-}
-
-.second-conteiner .first-image-conteiner-nosotros .image, .second-conteiner .second-image-conteiner-nosotros .image, .second-conteiner .third-image-conteiner-nosotros .image {
-  display: flex;
-  justify-content: center;
-  align-self: center;
 }
 
 .title {

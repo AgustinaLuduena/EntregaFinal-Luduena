@@ -21,6 +21,10 @@
 
         .nosotros-image-logo {
 
+            width: 50%;
+            margin: 20px 5px;
+            align-self: center;
+
             @include responsive (1500px) {
                 width: 40%;
                 margin-top: 30px;
@@ -67,10 +71,15 @@
     }
 }
 
+
 .second-conteiner {
-    /*Grid*/
+    
+    display: none;
+
+    /*
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin: 50px 0px;
 
     .first-image-conteiner-nosotros {
         @include img-nosotros (1, flex, center);
@@ -79,7 +88,7 @@
             @extend %img-nosotros;
 
             .nosotros-image {
-                width: 80%;
+                width: 65%;
                 border-radius: 10px;
             }
         }
@@ -93,7 +102,7 @@
             @extend %img-nosotros;
 
             .nosotros-image {
-                width: 80%;
+                width: 65%;
                 border-radius: 10px;
             }
         }
@@ -106,12 +115,48 @@
             @extend %img-nosotros;
 
             .nosotros-image {
-                width: 80%;
+                width: 65%;
                 border-radius: 10px;
             }
         }
     }
+
+*/
+
 }
 
+.instagram-post-conteiner {
+    display: flex;
+    justify-content: center;
+
+    .individual-ig-post {
+        width: 70%;
+        padding: 10px;
+    }
+
+    @include responsive (1000px) {
+        display: none;
+    }
 
 
+}
+
+#carouselExample-instagram {
+    
+    .carousel-item.active {
+        display: flex;
+        justify-content: center;
+        padding: 0px 100px;
+
+    }
+
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        filter: invert(108%);
+      }
+
+
+      @include responsive-min (1000px) {
+        display: none;
+    }
+}
