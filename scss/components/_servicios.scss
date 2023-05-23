@@ -62,15 +62,15 @@
     }
 
     .servicios-1:hover {
-        @include animations ( scale(1.2), all 3s);
+        @include animations ( scale(1.1), all 3s);
     }
 
     .servicios-2:hover {
-        @include animations ( scale(1.2), all 3s);
+        @include animations ( scale(1.1), all 3s);
     }
 
     .servicios-3:hover {
-        @include animations ( scale(1.3), all 3s);
+        @include animations ( scale(1.2), all 3s);
     }
 
 
@@ -84,5 +84,9 @@
         @include responsive (900px) {
             display: none;
         } 
+    }
+
+    .servicios-img {
+        border-radius: 25px;
     }
 }

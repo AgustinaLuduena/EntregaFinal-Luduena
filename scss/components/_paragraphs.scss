@@ -194,6 +194,7 @@
         @include responsive (900px) {
             margin: 10px;
             padding-right: 0px;
+            text-align: start;
         } 
     }
     
@@ -216,26 +217,37 @@ main {
     text-align: center;
 
     .contacto {
-        @include basic-texts (32px, none, 70px);
+        @include basic-texts (42px, none, 70px);
 
+
+            @include responsive (1400px) {
+                @include basic-texts (36px, none, 20px);
+            } 
             @include responsive (900px) {
-                @include basic-texts (24px, none, 55px 15px);
+                @include basic-texts (24px, none, 20px 20px);
+            } 
+            @include responsive (500px) {
+                @include basic-texts (18px, none, 20px 15px);
             } 
     }
     
     .paragraph-contacto {
-        @include basic-texts (24px, italic, 10px 30px);
+        @include basic-texts (34px, italic, 10px 30px);
         font-family: 'Poppins', sans-serif;
 
+            @include responsive (1400px) {
+                @include basic-texts (28px, none, 20px);
+            } 
             @include responsive (900px) {
-                @include basic-texts (22px, italic, 10px 20px);
+                @include basic-texts (22px, italic, 10px 15px);
                 font-family: 'Poppins', sans-serif;
+            } 
+            @include responsive (500px) {
+                @include basic-texts (16px, none, 20px 15px);
             } 
     }
 
-    .second-text-conteiner-contacto {
-        margin: 70px 0px;
-    }
+
 
 }
 
