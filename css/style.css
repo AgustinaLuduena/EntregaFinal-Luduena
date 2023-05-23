@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .main-conteiner-contacto .text-conteiner-contacto, .buttons-servicios, .first-button {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, #carouselExample-instagram .carousel-item.active, .first-conteiner .text-conteiner, .main-conteiner-contacto .text-conteiner-contacto, .buttons-servicios, .first-button {
   display: flex;
   justify-content: center;
 }
@@ -19,7 +19,7 @@
 }
 
 /*Responsive*/
-.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .main-conteiner-contacto .text-conteiner-contacto, .buttons-servicios, .first-button {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, #carouselExample-instagram .carousel-item.active, .first-conteiner .text-conteiner, .main-conteiner-contacto .text-conteiner-contacto, .buttons-servicios, .first-button {
   display: flex;
   justify-content: center;
 }
@@ -103,7 +103,7 @@
   transition: all 2s;
 }
 
-.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .main-conteiner-contacto .text-conteiner-contacto, .first-button, .buttons-servicios {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, #carouselExample-instagram .carousel-item.active, .first-conteiner .text-conteiner, .main-conteiner-contacto .text-conteiner-contacto, .first-button, .buttons-servicios {
   display: flex;
   justify-content: center;
 }
@@ -202,7 +202,7 @@
   }
 }
 
-.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .first-button, .buttons-servicios, .main-conteiner-contacto .text-conteiner-contacto {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, #carouselExample-instagram .carousel-item.active, .first-conteiner .text-conteiner, .first-button, .buttons-servicios, .main-conteiner-contacto .text-conteiner-contacto {
   display: flex;
   justify-content: center;
 }
@@ -226,46 +226,61 @@
 .footer-conteiner {
   background-color: rgb(220, 220, 220);
   padding: 20px;
-  /*Grid*/
+  display: flex;
+  justify-content: space-around;
   display: grid;
-  grid-template-columns: 3;
+  grid-template-columns: repeat(2, 1fr);
 }
-.footer-conteiner .footer-item-media {
-  /*Grid*/
+.footer-conteiner .social-media-footer {
   grid-column: 1;
-  /*Flexbox*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-conteiner .social-media-footer .footer-item-media {
+  /*
+  grid-column: 1;
+
   display: flex;
   align-items: center;
+  */
   font-size: 12px;
   font-style: italic;
   margin: 0px;
 }
-.footer-conteiner .footer-item-media .footer-icon {
+.footer-conteiner .social-media-footer .footer-item-media .footer-icon {
   text-decoration: none;
   color: rgb(92, 130, 108);
   cursor: pointer;
 }
-.footer-conteiner .footer-item-media .media-icon {
+@media screen and (max-width: 900px) {
+  .footer-conteiner .social-media-footer .footer-item-media .footer-icon {
+    font-size: 8px;
+    font-style: italic;
+    margin: 0px;
+  }
+}
+.footer-conteiner .social-media-footer .footer-item-media .media-icon {
   width: 32px;
   height: 32px;
 }
 .footer-conteiner .footer-item-phrase {
-  /*Grid*/
-  grid-column: 3;
+  grid-column: 2;
   text-align: end;
+  align-self: center;
   font-size: 18px;
   font-style: italic;
-  margin: 0px 0px 40px 0px;
+  margin: 0px 10px;
 }
 @media screen and (max-width: 900px) {
   .footer-conteiner .footer-item-phrase {
     font-size: 14px;
     font-style: italic;
-    margin: 0px 0px 30px 0px;
+    margin: 0px 10px;
   }
 }
 
-.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .first-button, .buttons-servicios, .main-conteiner-contacto .text-conteiner-contacto {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, #carouselExample-instagram .carousel-item.active, .first-conteiner .text-conteiner, .first-button, .buttons-servicios, .main-conteiner-contacto .text-conteiner-contacto {
   display: flex;
   justify-content: center;
 }
@@ -322,7 +337,7 @@
   }
 }
 
-.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .first-button, .buttons-servicios, .main-conteiner-contacto .text-conteiner-contacto {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, #carouselExample-instagram .carousel-item.active, .first-conteiner .text-conteiner, .first-button, .buttons-servicios, .main-conteiner-contacto .text-conteiner-contacto {
   display: flex;
   justify-content: center;
 }
@@ -364,7 +379,7 @@ header .navbar #navbarNav .nav-link {
   font-size: 15px;
 }
 
-.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-conteiner .text-conteiner, .first-button, .buttons-servicios, .main-conteiner-contacto .text-conteiner-contacto {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, #carouselExample-instagram .carousel-item.active, .first-conteiner .text-conteiner, .first-button, .buttons-servicios, .main-conteiner-contacto .text-conteiner-contacto {
   display: flex;
   justify-content: center;
 }
@@ -461,56 +476,6 @@ header .navbar #navbarNav .nav-link {
   align-items: center;
 }
 
-.second-conteiner {
-  display: none;
-  /*
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      margin: 50px 0px;
-
-      .first-image-conteiner-nosotros {
-          @include img-nosotros (1, flex, center);
-
-          .image {
-              @extend %img-nosotros;
-
-              .nosotros-image {
-                  width: 65%;
-                  border-radius: 10px;
-              }
-          }
-
-      }
-
-      .second-image-conteiner-nosotros {
-          @include img-nosotros (2, flex, center);
-
-          .image {
-              @extend %img-nosotros;
-
-              .nosotros-image {
-                  width: 65%;
-                  border-radius: 10px;
-              }
-          }
-      }
-
-      .third-image-conteiner-nosotros {
-          @include img-nosotros (3, flex, center);
-
-          .image {
-              @extend %img-nosotros;
-
-              .nosotros-image {
-                  width: 65%;
-                  border-radius: 10px;
-              }
-          }
-      }
-
-  */
-}
-
 .instagram-post-conteiner {
   display: flex;
   justify-content: center;
@@ -526,8 +491,6 @@ header .navbar #navbarNav .nav-link {
 }
 
 #carouselExample-instagram .carousel-item.active {
-  display: flex;
-  justify-content: center;
   padding: 0px 100px;
 }
 #carouselExample-instagram .carousel-control-prev-icon, #carouselExample-instagram .carousel-control-next-icon {
@@ -539,7 +502,7 @@ header .navbar #navbarNav .nav-link {
   }
 }
 
-.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-button, .buttons-servicios, .main-conteiner-contacto .text-conteiner-contacto, .first-conteiner .text-conteiner {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-button, .buttons-servicios, .main-conteiner-contacto .text-conteiner-contacto, .first-conteiner .text-conteiner, #carouselExample-instagram .carousel-item.active {
   display: flex;
   justify-content: center;
 }
@@ -919,7 +882,7 @@ main .paragraph-contacto {
   }
 }
 
-.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .first-button, .buttons-servicios, .main-conteiner-contacto .text-conteiner-contacto, .first-conteiner .text-conteiner, .servicios-detalle .cinco {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .first-button, .buttons-servicios, .main-conteiner-contacto .text-conteiner-contacto, .first-conteiner .text-conteiner, #carouselExample-instagram .carousel-item.active, .servicios-detalle .cinco {
   display: flex;
   justify-content: center;
 }
@@ -1040,7 +1003,7 @@ main .paragraph-contacto {
   border-radius: 25px;
 }
 
-.first-button, .buttons-servicios, .main-conteiner-contacto .text-conteiner-contacto, .first-conteiner .text-conteiner, .servicios-detalle .cinco, .seis .servicios-1, .seis .servicios-2, .seis .servicios-3 {
+.first-button, .buttons-servicios, .main-conteiner-contacto .text-conteiner-contacto, .first-conteiner .text-conteiner, #carouselExample-instagram .carousel-item.active, .servicios-detalle .cinco, .seis .servicios-1, .seis .servicios-2, .seis .servicios-3 {
   display: flex;
   justify-content: center;
 }

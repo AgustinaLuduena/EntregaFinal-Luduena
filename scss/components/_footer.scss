@@ -7,17 +7,30 @@
     .footer-conteiner {
         background-color: $bg-footer;
         padding: 20px;
-        /*Grid*/
-        display: grid;
-        grid-template-columns: 3;
+        display: flex;
+        justify-content: space-around;
         
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    
+
+        .social-media-footer {
+
+            grid-column: 1;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
 
             .footer-item-media {
-                /*Grid*/
+                /*
                 grid-column: 1;
-                /*Flexbox*/
+               
                 display: flex;
                 align-items: center;
+                */
+
+
                 @include basic-texts (12px, italic, 0px);
 
 
@@ -25,6 +38,10 @@
                         text-decoration: none;
                         color: $textos-footer;
                         cursor: pointer;
+
+                        @include responsive (900px) {
+                            @include basic-texts (8px, italic, 0px);
+                        } 
                     }
 
                     .media-icon {
@@ -32,15 +49,20 @@
                         height: 32px;
                     }
             }
+        }
+
 
             .footer-item-phrase {
-                /*Grid*/
-                grid-column: 3;
+                
+                grid-column: 2;
+                
                 text-align: end;
-                @include basic-texts (18px, italic, 0px 0px 40px 0px);
+                align-self: center;
+
+                @include basic-texts (18px, italic, 0px 10px);
 
                     @include responsive (900px) {
-                    @include basic-texts (14px, italic, 0px 0px 30px 0px);
+                    @include basic-texts (14px, italic, 0px 10px);
                 } 
             }
     }

@@ -72,58 +72,7 @@
 }
 
 
-.second-conteiner {
-    
-    display: none;
 
-    /*
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 50px 0px;
-
-    .first-image-conteiner-nosotros {
-        @include img-nosotros (1, flex, center);
-
-        .image {
-            @extend %img-nosotros;
-
-            .nosotros-image {
-                width: 65%;
-                border-radius: 10px;
-            }
-        }
-        
-    }
-    
-    .second-image-conteiner-nosotros {
-        @include img-nosotros (2, flex, center);
-
-        .image {
-            @extend %img-nosotros;
-
-            .nosotros-image {
-                width: 65%;
-                border-radius: 10px;
-            }
-        }
-    }
-    
-    .third-image-conteiner-nosotros {
-        @include img-nosotros (3, flex, center);
-
-        .image {
-            @extend %img-nosotros;
-
-            .nosotros-image {
-                width: 65%;
-                border-radius: 10px;
-            }
-        }
-    }
-
-*/
-
-}
 
 .instagram-post-conteiner {
     display: flex;
@@ -136,7 +85,7 @@
 
     @include responsive (1000px) {
         display: none;
-    }
+    } 
 
 
 }
@@ -144,19 +93,16 @@
 #carouselExample-instagram {
     
     .carousel-item.active {
-        display: flex;
-        justify-content: center;
+        @extend %center;
         padding: 0px 100px;
-
     }
-
 
     .carousel-control-prev-icon, .carousel-control-next-icon {
         filter: invert(108%);
       }
 
-
-      @include responsive-min (1000px) {
+    
+    @include responsive-min (1000px) {
         display: none;
     }
 }
