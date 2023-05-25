@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .seis, .servicios-detalle .cinco, #carouselExample-nos, .instagram-post-conteiner-sm, #carouselExample-instagram .carousel-item.active, .instagram-post-conteiner, .first-conteiner .text-conteiner, .first-conteiner, .main-conteiner-contacto .contacto-images-2, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images, .buttons-servicios, .first-button {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .seis, .servicios-detalle .cinco, #carouselExample-instagram .carousel-item.active, .first-conteiner .text-conteiner, .first-conteiner, .main-conteiner-contacto .contacto-images-2, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images, .buttons-servicios, .first-button {
   display: flex;
   justify-content: center;
 }
@@ -19,7 +19,7 @@
 }
 
 /*Responsive*/
-.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .seis, .servicios-detalle .cinco, #carouselExample-nos, .instagram-post-conteiner-sm, #carouselExample-instagram .carousel-item.active, .instagram-post-conteiner, .first-conteiner .text-conteiner, .first-conteiner, .main-conteiner-contacto .contacto-images-2, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images, .buttons-servicios, .first-button {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .seis, .servicios-detalle .cinco, #carouselExample-instagram .carousel-item.active, .first-conteiner .text-conteiner, .first-conteiner, .main-conteiner-contacto .contacto-images-2, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images, .buttons-servicios, .first-button {
   display: flex;
   justify-content: center;
 }
@@ -103,7 +103,7 @@
   transition: all 2s;
 }
 
-.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .seis, .servicios-detalle .cinco, #carouselExample-nos, .instagram-post-conteiner-sm, #carouselExample-instagram .carousel-item.active, .instagram-post-conteiner, .first-conteiner .text-conteiner, .first-conteiner, .main-conteiner-contacto .contacto-images-2, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images, .first-button, .buttons-servicios {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .seis, .servicios-detalle .cinco, #carouselExample-instagram .carousel-item.active, .first-conteiner .text-conteiner, .first-conteiner, .main-conteiner-contacto .contacto-images-2, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images, .first-button, .buttons-servicios {
   display: flex;
   justify-content: center;
 }
@@ -198,7 +198,7 @@
   }
 }
 
-.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .seis, .servicios-detalle .cinco, #carouselExample-nos, .instagram-post-conteiner-sm, #carouselExample-instagram .carousel-item.active, .instagram-post-conteiner, .first-conteiner .text-conteiner, .first-conteiner, .first-button, .buttons-servicios, .main-conteiner-contacto .contacto-images, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images-2 {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .seis, .servicios-detalle .cinco, #carouselExample-instagram .carousel-item.active, .first-conteiner .text-conteiner, .first-conteiner, .first-button, .buttons-servicios, .main-conteiner-contacto .contacto-images, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images-2 {
   display: flex;
   justify-content: center;
 }
@@ -276,7 +276,7 @@
   }
 }
 
-.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .seis, .servicios-detalle .cinco, #carouselExample-nos, .instagram-post-conteiner-sm, #carouselExample-instagram .carousel-item.active, .instagram-post-conteiner, .first-conteiner .text-conteiner, .first-conteiner, .first-button, .buttons-servicios, .main-conteiner-contacto .contacto-images, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images-2 {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .seis, .servicios-detalle .cinco, #carouselExample-instagram .carousel-item.active, .first-conteiner .text-conteiner, .first-conteiner, .first-button, .buttons-servicios, .main-conteiner-contacto .contacto-images, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images-2 {
   display: flex;
   justify-content: center;
 }
@@ -333,7 +333,7 @@
   }
 }
 
-.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .seis, .servicios-detalle .cinco, #carouselExample-nos, .instagram-post-conteiner-sm, #carouselExample-instagram .carousel-item.active, .instagram-post-conteiner, .first-conteiner .text-conteiner, .first-conteiner, .first-button, .buttons-servicios, .main-conteiner-contacto .contacto-images, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images-2 {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .seis, .servicios-detalle .cinco, #carouselExample-instagram .carousel-item.active, .first-conteiner .text-conteiner, .first-conteiner, .first-button, .buttons-servicios, .main-conteiner-contacto .contacto-images, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images-2 {
   display: flex;
   justify-content: center;
 }
@@ -375,7 +375,7 @@ header .navbar #navbarNav .nav-link {
   font-size: 15px;
 }
 
-.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .seis, .servicios-detalle .cinco, #carouselExample-nos, .instagram-post-conteiner-sm, #carouselExample-instagram .carousel-item.active, .instagram-post-conteiner, .first-conteiner .text-conteiner, .first-conteiner, .first-button, .buttons-servicios, .main-conteiner-contacto .contacto-images, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images-2 {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .seis, .servicios-detalle .cinco, #carouselExample-instagram .carousel-item.active, .first-conteiner .text-conteiner, .first-conteiner, .first-button, .buttons-servicios, .main-conteiner-contacto .contacto-images, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images-2 {
   display: flex;
   justify-content: center;
 }
@@ -463,6 +463,10 @@ header .navbar #navbarNav .nav-link {
   align-items: center;
 }
 
+.instagram-post-conteiner {
+  display: flex;
+  justify-content: center;
+}
 .instagram-post-conteiner .individual-ig-post {
   width: 70%;
   padding: 10px;
@@ -490,6 +494,10 @@ header .navbar #navbarNav .nav-link {
   }
 }
 
+.instagram-post-conteiner-sm {
+  display: flex;
+  justify-content: center;
+}
 .instagram-post-conteiner-sm .individual-ig-post {
   display: flex;
   justify-content: center;
@@ -508,6 +516,8 @@ header .navbar #navbarNav .nav-link {
 }
 
 #carouselExample-nos {
+  display: flex;
+  justify-content: center;
   padding: 10px;
 }
 @media screen and (min-width: 300px) {
@@ -516,7 +526,7 @@ header .navbar #navbarNav .nav-link {
   }
 }
 
-.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .seis, .servicios-detalle .cinco, .first-button, .buttons-servicios, .main-conteiner-contacto .contacto-images, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images-2, .first-conteiner, .first-conteiner .text-conteiner, .instagram-post-conteiner, #carouselExample-instagram .carousel-item.active, .instagram-post-conteiner-sm, #carouselExample-nos {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .seis, .servicios-detalle .cinco, .first-button, .buttons-servicios, .main-conteiner-contacto .contacto-images, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images-2, .first-conteiner, .first-conteiner .text-conteiner, #carouselExample-instagram .carousel-item.active {
   display: flex;
   justify-content: center;
 }
@@ -897,7 +907,7 @@ main .paragraph-contacto {
   }
 }
 
-.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .seis, .first-button, .buttons-servicios, .main-conteiner-contacto .contacto-images, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images-2, .first-conteiner, .first-conteiner .text-conteiner, .instagram-post-conteiner, #carouselExample-instagram .carousel-item.active, .instagram-post-conteiner-sm, #carouselExample-nos, .servicios-detalle .cinco {
+.seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .seis, .first-button, .buttons-servicios, .main-conteiner-contacto .contacto-images, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images-2, .first-conteiner, .first-conteiner .text-conteiner, #carouselExample-instagram .carousel-item.active, .servicios-detalle .cinco {
   display: flex;
   justify-content: center;
 }
@@ -1016,7 +1026,7 @@ main .paragraph-contacto {
   border-radius: 25px;
 }
 
-.first-button, .buttons-servicios, .main-conteiner-contacto .contacto-images, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images-2, .first-conteiner, .first-conteiner .text-conteiner, .instagram-post-conteiner, #carouselExample-instagram .carousel-item.active, .instagram-post-conteiner-sm, #carouselExample-nos, .servicios-detalle .cinco, .seis, .seis .servicios-1, .seis .servicios-2, .seis .servicios-3 {
+.first-button, .buttons-servicios, .main-conteiner-contacto .contacto-images, .main-conteiner-contacto .text-conteiner-contacto, .main-conteiner-contacto .contacto-images-2, .first-conteiner, .first-conteiner .text-conteiner, #carouselExample-instagram .carousel-item.active, .servicios-detalle .cinco, .seis, .seis .servicios-1, .seis .servicios-2, .seis .servicios-3 {
   display: flex;
   justify-content: center;
 }

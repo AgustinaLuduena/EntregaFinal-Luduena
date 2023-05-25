@@ -69,7 +69,8 @@
 
 
 .instagram-post-conteiner {
-    @extend %center;
+    display: flex;
+    justify-content: center;
 
     .individual-ig-post {
         width: 70%;
@@ -106,7 +107,8 @@
 
 
 .instagram-post-conteiner-sm {
-    @extend %center;
+    display: flex;
+    justify-content: center;
 
     .individual-ig-post {
         display: flex;
@@ -126,7 +128,8 @@
 }
 
 #carouselExample-nos {
-    @extend %center;
+    display: flex;
+    justify-content: center;
     padding: 10px;
 
 
