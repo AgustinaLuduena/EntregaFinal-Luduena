@@ -7,8 +7,7 @@
 .first-conteiner {
     /*Grid*/
     @include grid (grid, 1fr 2fr);
-    display: flex;
-    justify-content: center;
+    @extend %center;
 
 
     .logo-image-conteiner-nosotros {
@@ -31,11 +30,6 @@
                 align-self: center;
             }
             @include responsive (1300px) {
-                width: 50%;
-                margin-top: 30px;
-                align-self: center;
-            }
-            @include responsive (900px) {
                 width: 50%;
                 margin-top: 30px;
                 align-self: center;
@@ -75,8 +69,7 @@
 
 
 .instagram-post-conteiner {
-    display: flex;
-    justify-content: center;
+    @extend %center;
 
     .individual-ig-post {
         width: 70%;
@@ -113,8 +106,7 @@
 
 
 .instagram-post-conteiner-sm {
-    display: flex;
-    justify-content: center;
+    @extend %center;
 
     .individual-ig-post {
         display: flex;
@@ -134,8 +126,7 @@
 }
 
 #carouselExample-nos {
-    display: flex;
-    justify-content: center;
+    @extend %center;
     padding: 10px;
 
 

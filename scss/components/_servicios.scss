@@ -14,8 +14,7 @@
 
 .seis {
     @include grid (grid, 1fr 2fr 1fr);
-    display: flex;
-    justify-content: center;
+    @extend %center;
     align-items: center;
 
     .servicios-1 {

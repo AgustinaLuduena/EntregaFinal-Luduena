@@ -164,6 +164,7 @@
         font-family: 'Poppins', sans-serif;
         padding-top: 50px;
         text-align: center;
+        color: $bg-buttons-redes;
 
             @include responsive (900px) {
                 padding-top: 25px;
