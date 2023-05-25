@@ -105,4 +105,42 @@
     @include responsive-min (1000px) {
         display: none;
     }
+
+    @include responsive (700px) {
+        display: none;
+    }
+}
+
+
+.instagram-post-conteiner-sm {
+    display: flex;
+    justify-content: center;
+
+    .individual-ig-post {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        padding: 10px;
+    }
+
+    @include responsive-min (700px) {
+        display: none;
+    } 
+
+    @include responsive (300px) {
+        display: none;
+    } 
+
+}
+
+#carouselExample-nos {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+
+
+    @include responsive-min (300px) {
+        display: none;
+    } 
 }

@@ -501,6 +501,43 @@ header .navbar #navbarNav .nav-link {
     display: none;
   }
 }
+@media screen and (max-width: 700px) {
+  #carouselExample-instagram {
+    display: none;
+  }
+}
+
+.instagram-post-conteiner-sm {
+  display: flex;
+  justify-content: center;
+}
+.instagram-post-conteiner-sm .individual-ig-post {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding: 10px;
+}
+@media screen and (min-width: 700px) {
+  .instagram-post-conteiner-sm {
+    display: none;
+  }
+}
+@media screen and (max-width: 300px) {
+  .instagram-post-conteiner-sm {
+    display: none;
+  }
+}
+
+#carouselExample-nos {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+@media screen and (min-width: 300px) {
+  #carouselExample-nos {
+    display: none;
+  }
+}
 
 .seis .servicios-3, .seis .servicios-2, .seis .servicios-1, .servicios-detalle .cinco, .first-button, .buttons-servicios, .main-conteiner-contacto .text-conteiner-contacto, .first-conteiner .text-conteiner, #carouselExample-instagram .carousel-item.active {
   display: flex;
